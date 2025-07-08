@@ -1,31 +1,127 @@
 
-# 🚀 New Exercise Dataset 
+<div align="center">
+  <img src="https://cdn.exercisedb.dev/exercisedb/exercisedb_banner.png" alt="ExerciseDB API Banner" width="100%" height="600px" />
+  
+  <br />
+  <br />
+  <img src="https://cdn.exercisedb.dev/exercisedb/android-chrome-512x512.png" alt="ExerciseDB Logo" width="120" height="120" />
 
-What's Inside Our New Dataset
-- 3,000+ exercises
-- High-quality video demonstration.
-- High-quality images
-- Multilingual supports
-- Many More..
+  <h3>🏋️‍♂️ Comprehensive Fitness Exercise Database API</h3>
+  
+  <p>
+    <strong>5,000+ structured exercises</strong> • <strong>Fast & Modern</strong> • <strong>Developer-Friendly</strong>
+  </p>
+  
+  <p>
+    <span style="margin-right: 10px;">
+      <a href="https://dub.sh/exercisedb-api">
+        <img src="https://img.shields.io/badge/Get%20Started-2D2D2D?style=for-the-badge&logo=rocket&logoColor=white" alt="Get Started" />
+      </a>
+    </span>
+    <span style="margin-right: 10px;">
+      <a href="https://docs.exercisedb.dev">
+        <img src="https://img.shields.io/badge/Documentation-404040?style=for-the-badge&logo=book&logoColor=white" alt="Documentation" />
+      </a>
+    </span>
+    <span>
+      <a href="#examples">
+        <img src="https://img.shields.io/badge/Examples-5A5A5A?style=for-the-badge&logo=code&logoColor=white" alt="Examples" />
+      </a>
+    </span>
+  </p>
+
+</div>
 
 
-Check out the [Pricing Plan](https://dub.sh/JTgJoq2) for detailed information.
-For inquiries:
-Telegram: [@cyberboyanmol](https://t.me/cyberboyanmol) (fast response)
+## 🏋🏼‍♀️ ExerciseDB API
 
-## Note: Enterprise Solutions
-If you're building an application and need complete control over the exercise data, we offer offline dataset access instead of API as SaaS. This includes:
+ExerciseDB API is a **comprehensive and developer-friendly database** featuring over **5,000 structured, high-quality fitness exercises**. It delivers fast, modern, and scalable access to detailed exercise data—including targeted muscle groups, required equipment, visual aids (images and videos), and step-by-step instructions. Ideal for developers, fitness startups, and health platforms, ExerciseDB empowers the creation of smart workout apps, personalized training plans, and interactive fitness tools.
 
-- Full offline access to all 3,000+ exercises
-- with montly/annually subscription
-- Regular dataset updates
-- Custom data formats
-- Unlimited usage rights
-- Direct technical support
-- Integration assistance
+**Perfect for:**
+- 💪 Fitness app developers
+- 🏃‍♀️ Health & wellness platforms  
+- 🎯 Personal training applications
+- 📱 Workout planning tools
+- 🔬 Fitness research projects
 
-Exercise sample
-```sh
+<br>
+
+## 🔗 Useful Links
+
+<div align="left">
+
+### 📚 **Documentation & Plans**  
+
+<a href="https://dub.sh/JTgJoq2" target="_blank">
+  <img src="https://img.shields.io/badge/Full%20Documentation-2D2D2D?style=for-the-badge&logo=notion&logoColor=white" alt="Full Documentation" />
+</a>
+<a href="https://dub.sh/JTgJoq2" target="_blank">
+  <img src="https://img.shields.io/badge/Pricing%20Plans-404040?style=for-the-badge&logo=credit-card&logoColor=white" alt="Pricing Plans" />
+</a>
+<a href="https://dub.sh/exercisedb-api-tos" target="_blank">
+  <img src="https://img.shields.io/badge/Terms%20Of%20Use-2D2D2D?style=for-the-badge&logo=notion&logoColor=white" alt="Terms of use" />
+</a>
+<br>
+
+### 🧪 **API Playground**  
+
+<strong>Test our datasets and explore API endpoints</strong><br>
+<em>⚠️ These endpoints are for exploration only and <strong>not recommended for production integration</strong> — strict rate limits and potential instability may apply.</em>
+<br><br>
+**Note:** V1 and V2 refer to different datasets.
+<br>
+  <p>
+    <a href="https://dub.sh/exercisedb_v2" target="_blank">
+      <img src="https://img.shields.io/badge/v2%20Playground-5A5A5A?style=for-the-badge&logo=play&logoColor=white" alt="v2 Playground" />
+    </a>
+    <a href="https://dub.sh/exercisedb_v1" target="_blank">
+      <img src="https://img.shields.io/badge/v1%20Playground-5A5A5A?style=for-the-badge&logo=play&logoColor=white" alt="v1 Playground" />
+    </a>
+  </p>
+
+</div>
+
+
+## 📬 Support & Contact
+
+<div align="left">
+
+<p><strong>Need help or have questions? We're here to assist!</strong></p>
+
+<table>
+  <tr>
+    <td align="left">
+      <a href="mailto:hello@exercisedb.dev">
+        <img src="https://img.shields.io/badge/General%20Inquiries-2D2D2D?style=for-the-badge&logo=mail&logoColor=white" alt="General Inquiries" />
+      </a>
+      <br>
+      <small>✉️ Partnerships & General Questions</small>
+    </td>
+    <td align="left">
+      <a href="mailto:support@exercisedb.dev">
+        <img src="https://img.shields.io/badge/Technical%20Support-404040?style=for-the-badge&logo=wrench&logoColor=white" alt="Technical Support" />
+      </a>
+      <br>
+      <small>🛠️ API Help & Technical Issues</small>
+    </td>
+    <td align="left">
+      <a href="https://t.me/exercisedb" target="_blank">
+        <img src="https://img.shields.io/badge/Chat%20With%20Us-5A5A5A?style=for-the-badge&logo=message-circle&logoColor=white" alt="Chat With Us" />
+      </a>
+      <br>
+      <small>💬 Live Chat Support (Fast Response)</small>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+<br>
+
+## 🏋️‍♂️ V2 Exercise Sample
+
+```json
 {
   "exerciseId": "K6NnTv0",
   "name": "Bench Press",
@@ -83,65 +179,17 @@ Exercise sample
     "dCSgT7N"
   ]
 }
-
 ```
-Sample Image
-  
+
+### 🖼️ Sample Image
+
 ![Bench Press Exercise](https://ucarecdn.com/c12bb487-7390-4fc7-903c-a1c2298e70ad/K6NnTv0__BarbellBenchPress_Chest.png)
 
-Sample Video
+### 🎥 Sample Video
 
-https://github.com/user-attachments/assets/6845a963-4d80-4dfd-b602-e49616a9483f
+[Watch Bench Press Video Sample](https://github.com/user-attachments/assets/6845a963-4d80-4dfd-b602-e49616a9483f)
 
 
-# ExerciseDB API
+---
 
-![GitHub License](https://img.shields.io/github/license/cyberboyanmol/exercisedb-api)
-![GitHub Release](https://img.shields.io/github/v/release/cyberboyanmol/exercisedb-api)
-
-ExerciseDB API, accessible at [exercisedb-api.vercel.app](https://exercisedb-api.vercel.app/), is an exercises API that allows users to access high-quality exercises data which consists 1300+ exercises. This API offers extensive information on each exercise, including target body parts, equipment needed, GIFs for visual guidance, and step-by-step instructions.
-
-## ⚠️ Important Notice
-The unauthorized downloading, scraping, or bulk collection of data from this API is strictly prohibited. This API is intended for individual exercise lookups and legitimate application integration only. If you need access to the complete dataset or have specific requirements, please contact via Telegram at [@cyberboyanmol](https://t.me/cyberboyanmol). We're happy to discuss proper data usage and potential collaborations.
-
-## 📚 Documentation
-
-Check out the [API documentation](https://exercisedb-api.vercel.app/docs) for detailed information on how to use the API.
-
-## 📰 Changelog
-
-For a detailed list of changes, see the [CHANGELOG](CHANGELOG.md).
-
-## 🔌 Running Locally
-
-> [!NOTE]
-> You need `Bun(1.1.25+)` or `Node.js(v20+)`
-
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/cyberboyanmol/exercisedb-api
-   cd exercisedb-api
-   ```
-
-2. Install the required dependencies:
-
-   ```sh
-   bun install
-   ```
-
-3. Launch the development server:
-
-   ```sh
-   bun run dev
-   ```
-
-## ☁️ Deploying Your Own Instance
-
-You can easily deploy your own instance of the API by clicking the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cyberboyanmol/exercisedb-api)
-
-## 📜 License
-
-This project is distributed under the [MIT License](https://opensource.org/licenses/MIT). For more information, see the issue [ISSUE](https://github.com/cyberboyanmol/exercisedb-api/issues/3) included in this repository.
+<em>💪 Now that you’ve bench pressed through the sample… go lift the rest of the v2 dataset like a champ! 😄<em>

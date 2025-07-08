@@ -33,11 +33,11 @@ Home.get('/', (c) => {
         <meta charset="utf-8" />
         <meta name="description" content={description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://github.com/cyberboyanmol/exercisedb-api" />
+        <meta property="og:url" content="https://github.com/exercisedb/exercisedb-api" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://github.com/cyberboyanmol/exercisedb-api" />
+        <meta property="twitter:url" content="https://github.com/exercisedb/exercisedb-api" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -106,7 +106,7 @@ Home.get('/', (c) => {
             <a
               target="_blank"
               class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/cyberboyanmol/exercisedb-api"
+              href="https://github.com/exercisedb/exercisedb-api"
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-green-500 text-green-500">
@@ -122,7 +122,7 @@ Home.get('/', (c) => {
             <a
               target="_blank"
               class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/cyberboyanmol/exercisedb-api/issues"
+              href="https://github.com/exercisedb/exercisedb-api/issues"
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-violet-500 text-violet-500">
@@ -141,11 +141,11 @@ Home.get('/', (c) => {
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-blue-500 text-blue-500">
                   Contact
                 </span>
-                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Anmol Gangwar</span>
+                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">ExerciseDB API</span>
                 <div class="text-neutral-500 mt-2">
                   Have a question or need help? Reach out on{' '}
                   <a
-                    href="https://github.com/cyberboyanmol"
+                    href="https://github.com/exercisedb"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-indigo-500"
@@ -154,21 +154,12 @@ Home.get('/', (c) => {
                   </a>
                   ,{' '}
                   <a
-                    href="https://twitter.com/cyberboyanmol"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline text-sky-500"
-                  >
-                    Twitter
-                  </a>
-                  , or{' '}
-                  <a
-                    href="https://t.me/cyberboyanmol"
+                    href="https://t.me/exercisedb"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-pink-500"
                   >
-                    Telegram.
+                    Chat With Us.
                   </a>
                 </div>
               </div>

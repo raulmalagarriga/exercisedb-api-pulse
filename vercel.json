@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [{ "source": "(.*)", "destination": "/api" }],
-  "regions": ["bom1"],
+  "regions": ["sfo1"],
   "outputDirectory": "dist",
   "headers": [
     {
@@ -25,11 +25,11 @@
         },
         {
           "key": "Author",
-          "value": "Anmol Gangwar"
+          "value": "ExerciseDB API"
         },
         {
           "key": "Github",
-          "value": "https://github.com/cyberboyanmol/exercisedb-api"
+          "value": "https://github.com/exercisedb/exercisedb-api"
         }
       ]
     }

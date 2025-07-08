@@ -79,7 +79,7 @@ export class App {
           version: '1.0.0',
           title: 'ExerciseDB API',
           description: `# Introduction 
-          \nExerciseDB API, accessible at [exercisedb-api.vercel.app](https://exercisedb-api.vercel.app), is an exercises API that allows users to access high-quality exercises data which consists 1300+ exercises. 
+          \nExerciseDB API, accessible at [v1.exercisedb.dev](https://v1.exercisedb.dev), is an exercises API that allows users to access high-quality exercises data which consists 1300+ exercises. 
          This API offers extensive information on each exercise, including target body parts, equipment needed, GIFs for visual guidance, and step-by-step instructions.\n`
         },
 
@@ -102,9 +102,9 @@ export class App {
         darkMode: true,
         metaData: {
           applicationName: 'ExerciseDB API',
-          author: 'Anmol Gangwar',
-          creator: 'Anmol Gangwar',
-          publisher: 'Anmol Gangwar',
+          author: 'ExerciseDB API',
+          creator: 'ExerciseDB API',
+          publisher: 'ExerciseDB API',
           robots: 'index follow',
           description:
             'Access detailed data on over 1300+ exercises with the ExerciseDB API. This API offers extensive information on each exercise, including target body parts, equipment needed, GIFs for visual guidance, and step-by-step instructions.'
@@ -122,7 +122,7 @@ export class App {
       return c.json(
         {
           success: false,
-          message: 'oops route not found!!. check docs at https://exercisedb-api.vercel.app/docs'
+          message: 'oops route not found!!. check docs at https://v1.exercisedb.dev/docs'
         },
         404
       )
