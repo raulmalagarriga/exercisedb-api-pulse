@@ -13,16 +13,4 @@ export class BodyPartService {
   getBodyParts = () => {
     return this.getBodyPartsUseCase.execute()
   }
-
-  // getExercisesByBodyPart = (params: GetExerciseSerivceArgs) => {
-  //   const query: GetExercisesArgs = {
-  //     offset: params.offset,
-  //     limit: params.limit,
-  //     query: {
-  //       bodyParts: [...params.search]
-  //     }
-  //   }
-
-  //   return this.getExercisesUseCase.execute(query)
-  // }
 }

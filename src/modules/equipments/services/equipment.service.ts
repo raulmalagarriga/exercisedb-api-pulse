@@ -14,17 +14,4 @@ export class EquipmentService {
   getEquipments = () => {
     return this.getEquipmentUseCase.execute()
   }
-  // getExercisesByEquipment = (params: GetExerciseSerivceArgs) => {
-  //   const query: GetExercisesArgs = {
-  //     offset: params.offset,
-  //     limit: params.limit,
-  //     query: {
-  //       equipments: {
-  //         $all: [params.search]
-  //       }
-  //     }
-  //   }
-
-  //   return this.getExercisesUseCase.execute(query)
-  // }
 }

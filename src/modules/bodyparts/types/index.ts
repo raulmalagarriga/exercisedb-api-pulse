@@ -1,3 +1,3 @@
-import { BodyPart } from 'src/data/types'
+import { BodyPart } from "../../../data/types";
 
 export type FetchAllBodyPartRes = BodyPart[]
