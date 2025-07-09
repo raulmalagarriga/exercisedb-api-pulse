@@ -1,4 +1,3 @@
-
 <div align="center">
   <img src="https://cdn.exercisedb.dev/exercisedb/exercisedb_banner.png" alt="ExerciseDB API Banner" width="100%" height="600px" />
   
@@ -32,14 +31,14 @@
 
 </div>
 
-
 ## 🏋🏼‍♀️ ExerciseDB API
 
 ExerciseDB API is a **comprehensive and developer-friendly database** featuring over **5,000 structured, high-quality fitness exercises**. It delivers fast, modern, and scalable access to detailed exercise data—including targeted muscle groups, required equipment, visual aids (images and videos), and step-by-step instructions. Ideal for developers, fitness startups, and health platforms, ExerciseDB empowers the creation of smart workout apps, personalized training plans, and interactive fitness tools.
 
 **Perfect for:**
+
 - 💪 Fitness app developers
-- 🏃‍♀️ Health & wellness platforms  
+- 🏃‍♀️ Health & wellness platforms
 - 🎯 Personal training applications
 - 📱 Workout planning tools
 - 🔬 Fitness research projects
@@ -50,7 +49,7 @@ ExerciseDB API is a **comprehensive and developer-friendly database** featuring 
 
 <div align="left">
 
-### 📚 **Documentation & Plans**  
+### 📚 **Documentation & Plans**
 
 <a href="https://dub.sh/JTgJoq2" target="_blank">
   <img src="https://img.shields.io/badge/Full%20Documentation-2D2D2D?style=for-the-badge&logo=notion&logoColor=white" alt="Full Documentation" />
@@ -63,13 +62,14 @@ ExerciseDB API is a **comprehensive and developer-friendly database** featuring 
 </a>
 <br>
 
-### 🧪 **API Playground**  
+### 🧪 **API Playground**
 
 <strong>Test our datasets and explore API endpoints</strong><br>
 <em>⚠️ These endpoints are for exploration only and <strong>not recommended for production integration</strong> — strict rate limits and potential instability may apply.</em>
 <br><br>
 **Note:** V1 and V2 refer to different datasets.
 <br>
+
   <p>
     <a href="https://dub.sh/exercisedb_v2" target="_blank">
       <img src="https://img.shields.io/badge/v2%20Playground-5A5A5A?style=for-the-badge&logo=play&logoColor=white" alt="v2 Playground" />
@@ -80,7 +80,6 @@ ExerciseDB API is a **comprehensive and developer-friendly database** featuring 
   </p>
 
 </div>
-
 
 ## 📬 Support & Contact
 
@@ -116,8 +115,19 @@ ExerciseDB API is a **comprehensive and developer-friendly database** featuring 
 
 </div>
 
-
 <br>
+
+## 🚀 Deploy Your Own API (V1)
+
+Want to self-host the open-source ExerciseDB API (V1)?
+
+You can instantly deploy it to **Vercel** with just one click and have your own version running in seconds — no backend setup needed.
+
+<div align="left">
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/exercisedb/exercisedb-api)
+
+</div>
 
 ## 🏋️‍♂️ V2 Exercise Sample
 
@@ -130,11 +140,7 @@ ExerciseDB API is a **comprehensive and developer-friendly database** featuring 
   "bodyParts": ["Chest"],
   "exerciseType": "weight_reps",
   "targetMuscles": ["Pectoralis Major Clavicular Head"],
-  "secondaryMuscles": [
-    "Deltoid Anterior",
-    "Pectoralis Major Clavicular Head",
-    "Triceps Brachii"
-  ],
+  "secondaryMuscles": ["Deltoid Anterior", "Pectoralis Major Clavicular Head", "Triceps Brachii"],
   "videoUrl": "Barbell-Bench-Press_Chest_.mp4",
   "keywords": [
     "Chest workout with barbell",
@@ -188,7 +194,6 @@ ExerciseDB API is a **comprehensive and developer-friendly database** featuring 
 ### 🎥 Sample Video
 
 [Watch Bench Press Video Sample](https://github.com/user-attachments/assets/6845a963-4d80-4dfd-b602-e49616a9483f)
-
 
 ---
 
