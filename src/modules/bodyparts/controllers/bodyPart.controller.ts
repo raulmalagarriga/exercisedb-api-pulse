@@ -3,7 +3,6 @@ import { createRoute, OpenAPIHono } from '@hono/zod-openapi'
 import { z } from 'zod'
 import { BodyPartService } from '../services'
 import { BodyPartModel } from '../models/bodyPart.model'
-import { ExerciseModel } from '#modules/exercises/models/exercise.model.js'
 
 export class BodyPartController implements Routes {
   public controller: OpenAPIHono

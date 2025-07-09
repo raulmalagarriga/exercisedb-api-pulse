@@ -1,29 +1,7 @@
 import { IUseCase } from '#common/types/use-case.type.js'
 import { FileLoader } from '../../../data/load'
 import Fuse from 'fuse.js'
-import { Exercise } from '../types'
-
-export interface GetExercisesArgs {
-  offset?: number
-  limit?: number
-  query?: {
-    search?: string
-    searchThreshold?: number
-    targetMuscles?: string[]
-    equipments?: string[]
-    bodyParts?: string[]
-    includeSecondaryMuscles?: boolean
-    [key: string]: any
-  }
-  sort?: Record<string, 1 | -1>
-}
-
-export interface GetExercisesReturnArgs {
-  exercises: Exercise[]
-  totalPages: number
-  totalExercises: number
-  currentPage: number
-}
+import { Exercise, GetExercisesArgs, GetExercisesReturnArgs } from '../types'
 
 export class GetExercisesUseCase implements IUseCase<GetExercisesArgs, GetExercisesReturnArgs> {
   private exerciseData: Exercise[] | null = null
@@ -39,7 +17,7 @@ export class GetExercisesUseCase implements IUseCase<GetExercisesArgs, GetExerci
   private getFuseInstance(data: Exercise[], threshold: number = 0.3): Fuse<Exercise> {
     this.fuse = new Fuse(data, {
       keys: [
-        { name: 'name', weight: 0.3 },
+        { name: 'name', weight: 0.4 },
         { name: 'targetMuscles', weight: 0.25 },
         { name: 'bodyParts', weight: 0.2 },
         { name: 'equipments', weight: 0.15 },
@@ -123,13 +101,33 @@ export class GetExercisesUseCase implements IUseCase<GetExercisesArgs, GetExerci
         if (aVal == null) return order
         if (bVal == null) return -order
 
+        // Handle array fields (bodyParts, targetMuscles, equipments)
+        if (Array.isArray(aVal) && Array.isArray(bVal)) {
+          // Sort by first element of array, or by array length if first elements are equal
+          const aFirst = aVal[0] || ''
+          const bFirst = bVal[0] || ''
+
+          if (aFirst < bFirst) return -1 * order
+          if (aFirst > bFirst) return 1 * order
+
+          // If first elements are equal, sort by array length
+          if (aVal.length < bVal.length) return -1 * order
+          if (aVal.length > bVal.length) return 1 * order
+
+          continue
+        }
+
+        // Handle case where one is array and other is not (shouldn't happen with proper typing)
+        if (Array.isArray(aVal)) return -1 * order
+        if (Array.isArray(bVal)) return 1 * order
+
+        // Handle string/primitive fields
         if (aVal < bVal) return -1 * order
         if (aVal > bVal) return 1 * order
       }
       return 0
     })
   }
-
   private paginateResults(
     exercises: Exercise[],
     offset: number,
@@ -175,53 +173,3 @@ export class GetExercisesUseCase implements IUseCase<GetExercisesArgs, GetExerci
     }
   }
 }
-
-// // Service methods that can now work with the optimized use case
-// export interface GetExerciseServiceArgs {
-//   offset?: number
-//   limit?: number
-//   search: string | string[]
-// }
-
-// export class ExerciseService {
-//   constructor(private getExercisesUseCase: GetExercisesUseCase) {}
-
-//   getExercisesByMuscles = (params: GetExerciseServiceArgs) => {
-//     const muscles = Array.isArray(params.search) ? params.search : [params.search]
-//     const query: GetExercisesArgs = {
-//       offset: params.offset,
-//       limit: params.limit,
-//       query: {
-//         targetMuscles: { $all: muscles }
-//       }
-//     }
-
-//     return this.getExercisesUseCase.execute(query)
-//   }
-
-//   getExercisesByEquipment = (params: GetExerciseServiceArgs) => {
-//     const equipments = Array.isArray(params.search) ? params.search : [params.search]
-//     const query: GetExercisesArgs = {
-//       offset: params.offset,
-//       limit: params.limit,
-//       query: {
-//         equipments: { $all: equipments }
-//       }
-//     }
-
-//     return this.getExercisesUseCase.execute(query)
-//   }
-
-//   getExercisesByBodyPart = (params: GetExerciseServiceArgs) => {
-//     const bodyParts = Array.isArray(params.search) ? params.search : [params.search]
-//     const query: GetExercisesArgs = {
-//       offset: params.offset,
-//       limit: params.limit,
-//       query: {
-//         bodyParts: bodyParts
-//       }
-//     }
-
-//     return this.getExercisesUseCase.execute(query)
-//   }
-// }

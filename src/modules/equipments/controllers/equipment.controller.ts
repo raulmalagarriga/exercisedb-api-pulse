@@ -3,8 +3,6 @@ import { createRoute, OpenAPIHono } from '@hono/zod-openapi'
 import { z } from 'zod'
 import { EquipmentModel } from '../models/equipment.model'
 import { EquipmentService } from '../services'
-import { HTTPException } from 'hono/http-exception'
-import { ExerciseModel } from '#modules/exercises/models/exercise.model.js'
 
 export class EquipmentController implements Routes {
   public controller: OpenAPIHono

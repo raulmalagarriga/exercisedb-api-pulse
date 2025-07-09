@@ -2,61 +2,7 @@ import { Routes } from '#common/types/route.type.js'
 import { createRoute, OpenAPIHono } from '@hono/zod-openapi'
 import { z } from 'zod'
 import { ExerciseService } from '../services/exercise.service'
-import { ExerciseModel } from '../models/exercise.model'
-// Common pagination schema
-const PaginationQuerySchema = z.object({
-  offset: z.coerce.number().nonnegative().optional().openapi({
-    title: 'Offset',
-    description:
-      'The number of exercises to skip from the start of the list. Useful for pagination to fetch subsequent pages of results.',
-    type: 'number',
-    example: 0,
-    default: 0
-  }),
-  limit: z.coerce.number().positive().max(100).optional().openapi({
-    title: 'Limit',
-    description:
-      'The maximum number of exercises to return in the response. Limits the number of results for pagination purposes.',
-    maximum: 25,
-    minimum: 1,
-    type: 'number',
-    example: 10,
-    default: 10
-  })
-})
-
-// Common response schema
-const ExerciseResponseSchema = z.object({
-  success: z.literal(true).openapi({
-    description: 'Indicates whether the request was successful',
-    example: true
-  }),
-  metadata: z.object({
-    totalExercises: z.number().openapi({
-      description: 'Total number of exercises matching the criteria',
-      example: 150
-    }),
-    totalPages: z.number().openapi({
-      description: 'Total number of pages available',
-      example: 15
-    }),
-    currentPage: z.number().openapi({
-      description: 'Current page number',
-      example: 1
-    }),
-    previousPage: z.string().nullable().openapi({
-      description: 'URL for the previous page, null if on first page',
-      example: '/api/exercises?offset=0&limit=10'
-    }),
-    nextPage: z.string().nullable().openapi({
-      description: 'URL for the next page, null if on last page',
-      example: '/api/exercises?offset=20&limit=10'
-    })
-  }),
-  data: z.array(ExerciseModel).openapi({
-    description: 'Array of exercises'
-  })
-})
+import { ExerciseModel, ExerciseResponseSchema, PaginationQuerySchema } from '../models/exercise.model'
 
 export class ExerciseController implements Routes {
   public controller: OpenAPIHono
@@ -81,93 +27,170 @@ export class ExerciseController implements Routes {
       nextPage: currentPage < totalPages ? `${baseUrl}?offset=${currentPage * limit}&limit=${limit}${params}` : null
     }
   }
+
   public initRoutes() {
-    // this.controller.openapi(
-    //   createRoute({
-    //     method: 'get',
-    //     path: '/exercises/search',
-    //     tags: ['EXERCISES'],
-    //     summary: 'GetAllExercises',
-    //     operationId: 'getExercises',
-    //     request: {
-    //       query: z.object({
-    //         search: z.string().optional().openapi({
-    //           title: 'Search Query',
-    //           description:
-    //             'A string to filter exercises based on a search term. This can be used to find specific exercises by name or description.',
-    //           type: 'string',
-    //           example: 'cardio',
-    //           default: ''
-    //         }),
-    //         offset: z.coerce.number().nonnegative().optional().openapi({
-    //           title: 'Offset',
-    //           description:
-    //             'The number of exercises to skip from the start of the list. Useful for pagination to fetch subsequent pages of results.',
-    //           type: 'number',
-    //           example: 10,
-    //           default: 0
-    //         }),
-    //         limit: z.coerce.number().positive().max(100).optional().openapi({
-    //           title: 'Limit',
-    //           description:
-    //             'The maximum number of exercises to return in the response. Limits the number of results for pagination purposes.',
-    //           maximum: 100,
-    //           minimum: 1,
-    //           type: 'number',
-    //           example: 10,
-    //           default: 10
-    //         })
-    //       })
-    //     },
-    //     responses: {
-    //       200: {
-    //         description: 'Successful response with list of all exercises.',
-    //         content: {
-    //           'application/json': {
-    //             schema: z.object({
-    //               success: z.boolean().openapi({
-    //                 description: 'Indicates whether the request was successful',
-    //                 type: 'boolean',
-    //                 example: true
-    //               }),
-    //               data: z.array(ExerciseModel).openapi({
-    //                 description: 'Array of Exercises.'
-    //               })
-    //             })
-    //           }
-    //         }
-    //       },
-    //       500: {
-    //         description: 'Internal server error'
-    //       }
-    //     }
-    //   }),
-    //   async (ctx) => {
-    //     const { offset, limit = 10, search } = ctx.req.valid('query')
-    //     const { origin, pathname } = new URL(ctx.req.url)
-    //     const response = await this.exerciseService.getAllExercises({ offset, limit, search })
-    //     return ctx.json({
-    //       success: true,
-    //       data: {
-    //         previousPage:
-    //           response.currentPage > 1
-    //             ? `${origin}${pathname}?offset=${(response.currentPage - 2) * limit}&limit=${limit}`
-    //             : null,
-    //         nextPage:
-    //           response.currentPage < response.totalPages
-    //             ? `${origin}${pathname}?offset=${response.currentPage * limit}&limit=${limit}`
-    //             : null,
-    //         ...response
-    //       }
-    //     })
-    //   }
-    // )
+    this.controller.openapi(
+      createRoute({
+        method: 'get',
+        path: '/exercises/search',
+        tags: ['EXERCISES'],
+        summary: 'Search exercises with fuzzy matching',
+        description:
+          "Search exercises using fuzzy matching across all fields (name, muscles, equipment, body parts). Perfect for when users don't know exact terms.",
+        operationId: 'searchExercises',
+        request: {
+          query: PaginationQuerySchema.extend({
+            q: z.string().min(1).openapi({
+              title: 'Search Query',
+              description:
+                'Search term that will be fuzzy matched against exercise names, muscles, equipment, and body parts',
+              type: 'string',
+              example: 'chest push',
+              default: ''
+            }),
+            threshold: z.coerce.number().min(0).max(1).optional().openapi({
+              title: 'Search Threshold',
+              description: 'Fuzzy search threshold (0 = exact match, 1 = very loose match)',
+              type: 'number',
+              example: 0.3,
+              default: 0.3
+            })
+          })
+        },
+        responses: {
+          200: {
+            description: 'Successful response with fuzzy search results',
+            content: {
+              'application/json': {
+                schema: ExerciseResponseSchema
+              }
+            }
+          },
+          500: {
+            description: 'Internal server error'
+          }
+        }
+      }),
+      async (ctx) => {
+        const { offset = 0, limit = 10, q, threshold = 0.3 } = ctx.req.valid('query')
+        const { origin, pathname } = new URL(ctx.req.url)
+
+        const { totalExercises, currentPage, totalPages, exercises } = await this.exerciseService.searchExercises({
+          offset,
+          limit,
+          query: q,
+          threshold
+        })
+
+        const { previousPage, nextPage } = this.buildPaginationUrls(
+          origin,
+          pathname,
+          currentPage,
+          totalPages,
+          limit,
+          `q=${encodeURIComponent(q)}&threshold=${threshold}`
+        )
+
+        return ctx.json({
+          success: true,
+          metadata: {
+            totalPages,
+            totalExercises,
+            currentPage,
+            previousPage,
+            nextPage
+          },
+          data: [...exercises]
+        })
+      }
+    )
+
     this.controller.openapi(
       createRoute({
         method: 'get',
         path: '/exercises',
         tags: ['EXERCISES'],
-        summary: 'GetAllExercises',
+        summary: 'Get all exercises with optional search',
+        description: 'Retrieve all exercises with optional fuzzy search filtering',
+        operationId: 'getExercises',
+        request: {
+          query: PaginationQuerySchema.extend({
+            search: z.string().optional().openapi({
+              title: 'Search Query',
+              description: 'Optional search term for fuzzy matching across all exercise fields',
+              type: 'string',
+              example: 'cardio',
+              default: ''
+            }),
+            sortBy: z.enum(['name', 'exerciseId', 'targetMuscles', 'bodyParts', 'equipments']).optional().openapi({
+              title: 'Sort Field',
+              description: 'Field to sort exercises by',
+              example: 'targetMuscles',
+              default: 'targetMuscles'
+            }),
+            sortOrder: z.enum(['asc', 'desc']).optional().openapi({
+              title: 'Sort Order',
+              description: 'Sort order (ascending or descending)',
+              example: 'desc',
+              default: 'desc'
+            })
+          })
+        },
+        responses: {
+          200: {
+            description: 'Successful response with exercises',
+            content: {
+              'application/json': {
+                schema: ExerciseResponseSchema
+              }
+            }
+          },
+          500: {
+            description: 'Internal server error'
+          }
+        }
+      }),
+      async (ctx) => {
+        const { offset = 0, limit = 10, search, sortBy = 'targetMuscles', sortOrder = 'desc' } = ctx.req.valid('query')
+        const { origin, pathname } = new URL(ctx.req.url)
+
+        const { totalExercises, totalPages, currentPage, exercises } = await this.exerciseService.getAllExercises({
+          offset,
+          limit,
+          search,
+          sort: { [sortBy]: sortOrder === 'asc' ? 1 : -1 }
+        })
+
+        const searchParam = search ? `&search=${encodeURIComponent(search)}` : ''
+        const sortParams = `&sortBy=${sortBy}&sortOrder=${sortOrder}`
+        const { previousPage, nextPage } = this.buildPaginationUrls(
+          origin,
+          pathname,
+          currentPage,
+          totalPages,
+          limit,
+          `${searchParam}${sortParams}`
+        )
+
+        return ctx.json({
+          success: true,
+          metadata: {
+            totalPages,
+            totalExercises,
+            currentPage,
+            previousPage,
+            nextPage
+          },
+          data: [...exercises]
+        })
+      }
+    )
+    this.controller.openapi(
+      createRoute({
+        method: 'get',
+        path: '/exercises/filter',
+        tags: ['EXERCISES'],
+        summary: 'Advanced exercise filtering',
         description: 'Advance Filter exercises by multiple criteria with fuzzy search support',
         operationId: 'filterExercises',
         request: {

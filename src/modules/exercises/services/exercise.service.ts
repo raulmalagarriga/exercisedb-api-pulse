@@ -1,54 +1,15 @@
-import { FetchExerciseByIdReq } from '../types'
+import {
+  FetchExerciseByIdReq,
+  FilterExercisesArgs,
+  GetAllExercisesArgs,
+  GetExercisesArgs,
+  GetExercisesByBodyPartArgs,
+  GetExercisesByEquipmentArgs,
+  GetExercisesByMuscleArgs,
+  SearchExercisesArgs
+} from '../types'
 import { GetExerciseByIdUseCase } from '../use-cases'
-import { GetExercisesArgs, GetExercisesUseCase } from '../use-cases/get-exercise.usecase'
-export interface SearchExercisesArgs {
-  offset?: number
-  limit?: number
-  query: string
-  threshold?: number
-}
-
-export interface GetAllExercisesArgs {
-  offset?: number
-  limit?: number
-  search?: string
-  sort?: Record<string, 1 | -1>
-}
-
-export interface GetExercisesByMuscleArgs {
-  offset?: number
-  limit?: number
-  muscle: string
-  includeSecondary?: boolean
-}
-
-export interface GetExercisesByEquipmentArgs {
-  offset?: number
-  limit?: number
-  equipment: string
-}
-
-export interface GetExercisesByBodyPartArgs {
-  offset?: number
-  limit?: number
-  bodyPart: string
-}
-
-export interface FilterExercisesArgs {
-  offset?: number
-  limit?: number
-  search?: string
-  targetMuscles?: string[]
-  equipments?: string[]
-  bodyParts?: string[]
-  sort?: Record<string, 1 | -1>
-}
-
-export interface GetExerciseSerivceArgs {
-  offset?: number
-  limit?: number
-  search?: string
-}
+import { GetExercisesUseCase } from '../use-cases/get-exercise.usecase'
 export class ExerciseService {
   private readonly getExercisesUseCase: GetExercisesUseCase
   private readonly getExerciseByIdUseCase: GetExerciseByIdUseCase
@@ -56,7 +17,18 @@ export class ExerciseService {
     this.getExercisesUseCase = new GetExercisesUseCase()
     this.getExerciseByIdUseCase = new GetExerciseByIdUseCase()
   }
+  async searchExercises(params: SearchExercisesArgs) {
+    const query: GetExercisesArgs = {
+      offset: params.offset,
+      limit: params.limit,
+      query: {
+        search: params.query,
+        searchThreshold: params.threshold
+      }
+    }
 
+    return this.getExercisesUseCase.execute(query)
+  }
   async getAllExercises(params: GetAllExercisesArgs) {
     const query: GetExercisesArgs = {
       offset: params.offset,
