@@ -1,7 +1,7 @@
 import { IUseCase } from '#common/types/use-case.type.js'
 import { FileLoader } from 'src/data/load'
-import { Exercise } from '../types'
 import Fuse from 'fuse.js'
+import { Exercise } from '../types'
 
 export interface GetExercisesArgs {
   offset?: number

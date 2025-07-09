@@ -17,9 +17,8 @@ export class ExerciseController implements Routes {
       createRoute({
         method: 'get',
         path: '/exercises',
-        tags: ['Exercises'],
-        summary: 'Retrive all exercises.',
-        description: 'Retrive list of all the exercises.',
+        tags: ['EXERCISES'],
+        summary: 'GetAllExercises',
         operationId: 'getExercises',
         request: {
           query: z.object({
@@ -83,7 +82,7 @@ export class ExerciseController implements Routes {
           data: {
             previousPage:
               response.currentPage > 1
-                ? `${origin}${pathname}?offset=${(response.currentPage - 1) * limit}&limit=${limit}`
+                ? `${origin}${pathname}?offset=${(response.currentPage - 2) * limit}&limit=${limit}`
                 : null,
             nextPage:
               response.currentPage < response.totalPages
@@ -99,9 +98,8 @@ export class ExerciseController implements Routes {
       createRoute({
         method: 'get',
         path: '/exercises/{exerciseId}',
-        tags: ['Exercises'],
-        summary: 'Get exercise by ID',
-        description: 'Retrieves a specific exercise by its unique identifier.',
+        tags: ['EXERCISES'],
+        summary: 'GetExerciseById',
         operationId: 'getExerciseById',
         request: {
           params: z.object({

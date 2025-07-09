@@ -18,9 +18,8 @@ export class BodyPartController implements Routes {
       createRoute({
         method: 'get',
         path: '/bodyparts',
-        tags: ['BodyParts'],
-        summary: 'Retrive all bodyParts.',
-        description: 'Retrive list of all bodyparts.',
+        tags: ['BODYPARTS'],
+        summary: 'GetAllBodyparts',
         operationId: 'getBodyParts',
         responses: {
           200: {

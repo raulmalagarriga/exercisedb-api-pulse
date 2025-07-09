@@ -25,6 +25,9 @@ Home.get('/', (c) => {
   const title = 'ExerciseDB API'
   const description =
     'Access detailed data on over 1300+ exercises with the ExerciseDB API. This API offers extensive information on each exercise, including target body parts, equipment needed, GIFs for visual guidance, and step-by-step instructions.'
+  const keywords =
+    'exercisedb api, fitness exercise database api, fitness API, exercise database, workout API, fitness data API, muscle exercises, exercise gif api, gym API, exercise videos, exercise images, exercise instructions, gym workouts api ,  workouts exercises, home workouts, muscle gain workouts, weight loss exercises'
+
   return c.html(
     <html>
       <head>
@@ -32,14 +35,23 @@ Home.get('/', (c) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
+        <meta name="author" content="ExerciseDB" />
+        <meta name="author" content="Ascend API" />
+        {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://github.com/exercisedb/exercisedb-api" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta property="og:image" content="https://cdn.exercisedb.dev/exercisedb/exercisedb_banner.png" />
+        <meta property="og:url" content="https://github.com/exercisedb/exercisedb-api" />
+
+        {/* Twitter Card Tags */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://github.com/exercisedb/exercisedb-api" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content="https://cdn.exercisedb.dev/exercisedb/exercisedb_banner.png" />
+
+        <link rel="icon" href="https://cdn.exercisedb.dev/exercisedb/android-chrome-512x512.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -81,7 +93,7 @@ Home.get('/', (c) => {
         <main class="mx-auto my-auto flex flex-col space-y-8 px-4 pb-8 md:py-10 relative overflow-y-hidden overflow-x-hidden">
           <Meteors number={15} />
           <div class="flex flex-row items-center space-x-4 ml-6">
-            <p class="text-2xl md:text-4xl text-transparent font-bold leading-none bg-clip-text bg-gradient-to-r from-[#ff7d78] to-purple-600">
+            <p class="text-2xl md:text-4xl text-transparent font-bold leading-none bg-clip-text bg-gradient-to-r from-gray-300 via-gray-500 to-gray-100">
               ExerciseDB API
             </p>
           </div>
@@ -145,19 +157,19 @@ Home.get('/', (c) => {
                 <div class="text-neutral-500 mt-2">
                   Have a question or need help? Reach out on{' '}
                   <a
-                    href="https://github.com/exercisedb"
+                    href="mailto:hello@exercisedb.dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-indigo-500"
                   >
-                    GitHub
+                    hello@exercisedb.dev
                   </a>
                   ,{' '}
                   <a
                     href="https://t.me/exercisedb"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline text-pink-500"
+                    className="hover:underline text-green-500"
                   >
                     Chat With Us.
                   </a>

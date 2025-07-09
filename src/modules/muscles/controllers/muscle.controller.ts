@@ -18,9 +18,8 @@ export class MuscleController implements Routes {
       createRoute({
         method: 'get',
         path: '/muscles',
-        tags: ['Muscles'],
-        summary: 'Retrive all muscles.',
-        description: 'Retrive list of all the muscles.',
+        tags: ['MUSCLES'],
+        summary: 'GetAllMuscles',
         operationId: 'getMuscles',
         responses: {
           200: {

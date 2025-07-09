@@ -11,7 +11,6 @@
 // const RESTRICTED_METHODS = new Set(['POST', 'PUT', 'PATCH', 'DELETE'])
 // const VALID_ROLES = new Set(['member', 'moderator', 'admin'])
 
-
 // interface RouteConfig {
 //   path: string
 //   allowedEnvs: Set<string>
