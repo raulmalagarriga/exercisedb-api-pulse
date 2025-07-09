@@ -5,15 +5,12 @@ import { prettyJSON } from 'hono/pretty-json'
 import { Home } from './pages/home'
 import { Routes } from '#common/types'
 import type { HTTPException } from 'hono/http-exception'
-import { DalService } from './infra/mongodb/dal.service'
 import { cors } from 'hono/cors'
 import { authMiddleware } from './middleware/auth'
 export class App {
   private app: OpenAPIHono
-  private dalService: DalService
   constructor(routes: Routes[]) {
     this.app = new OpenAPIHono()
-    this.dalService = DalService.getInstance()
     this.initializeApp(routes)
   }
   private async initializeApp(routes: Routes[]) {
@@ -40,7 +37,6 @@ export class App {
   private initializeGlobalMiddleware() {
     this.app.use(async (c, next) => {
       try {
-        await this.dalService.connectDB()
         await next()
       } catch (error) {
         console.error('Database connection error:', error)
@@ -52,7 +48,7 @@ export class App {
     this.app.use(
       cors({
         origin: '*',
-        allowMethods: ['GET', 'POST', 'OPTIONS']
+        allowMethods: ['GET', 'OPTIONS']
       })
     )
 
