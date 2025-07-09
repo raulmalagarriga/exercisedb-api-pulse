@@ -92,13 +92,18 @@ export class App {
         isEditable: false,
         layout: 'modern',
         darkMode: true,
+        hideDownloadButton: true,
+        hideDarkModeToggle: true,
         url: '/swagger',
         favicon: 'https://cdn.exercisedb.dev/exercisedb/favicon.ico',
+        defaultOpenAllTags: true,
+        hideClientButton: true,
         metaData: {
           applicationName: 'ExerciseDB API - v1',
           author: 'Ascend API',
           creator: 'Ascend API',
           publisher: 'Ascend API',
+          ogType: 'website',
           robots: 'index follow',
           description: `**ExerciseDB API v1** is a fully open-source exercise dataset offering 1,300+ exercises with rich metadata and GIF visualizations. Built for speed and ease of use, it's ideal for personal projects, prototypes, and education.
 
