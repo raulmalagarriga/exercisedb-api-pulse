@@ -29,6 +29,10 @@ export class ExerciseService {
 
     return this.getExercisesUseCase.execute(query)
   }
+
+  getExerciseById = (request: FetchExerciseByIdReq) => {
+    return this.getExerciseByIdUseCase.execute(request)
+  }
   async getAllExercises(params: GetAllExercisesArgs) {
     const query: GetExercisesArgs = {
       offset: params.offset,
@@ -66,10 +70,6 @@ export class ExerciseService {
     }
 
     return this.getExercisesUseCase.execute(query)
-  }
-
-  getExerciseById = (request: FetchExerciseByIdReq) => {
-    return this.getExerciseByIdUseCase.execute(request)
   }
 
   // Get exercises by body part

@@ -357,7 +357,6 @@ export class ExerciseController implements Routes {
       }
     )
 
-    // Get Exercises by Body Part
     this.controller.openapi(
       createRoute({
         method: 'get',

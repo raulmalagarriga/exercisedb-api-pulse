@@ -2,11 +2,10 @@ import { BodyPartController, EquipmentController, MuscleController, ExerciseCont
 import { App } from './app'
 
 const app = new App([
-  //   new ExerciseController(),
-  //   new MuscleController(),
-  //   new EquipmentController(),
-  //   new BodyPartController(),
-  //   new UserController()
+  new ExerciseController(),
+  new MuscleController(),
+  new EquipmentController(),
+  new BodyPartController()
 ]).getApp()
 
 export default app

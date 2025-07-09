@@ -1,5 +1,5 @@
 import { IUseCase } from '#common/types/use-case.type.js'
-import { FileLoader } from 'src/data/load'
+import { FileLoader } from '../../../data/load'
 import { FetchExerciseByIdReq, Exercise as FetchExerciseByIdRes } from '../types'
 import { HTTPException } from 'hono/http-exception'
 
