@@ -1,12 +1,11 @@
 import { OpenAPIHono } from '@hono/zod-openapi'
-import { apiReference } from '@scalar/hono-api-reference'
+import { Scalar } from '@scalar/hono-api-reference'
 import { logger } from 'hono/logger'
 import { prettyJSON } from 'hono/pretty-json'
 import { Home } from './pages/home'
 import { Routes } from '#common/types'
 import type { HTTPException } from 'hono/http-exception'
 import { cors } from 'hono/cors'
-import { authMiddleware } from './middleware/auth'
 export class App {
   private app: OpenAPIHono
   constructor(routes: Routes[]) {
@@ -35,16 +34,6 @@ export class App {
   }
 
   private initializeGlobalMiddleware() {
-    this.app.use(async (c, next) => {
-      try {
-        await next()
-      } catch (error) {
-        console.error('Database connection error:', error)
-        return c.json({ error: 'Internal Server Error' }, 500)
-      } finally {
-        // await this.dalService.cleanup()
-      }
-    })
     this.app.use(
       cors({
         origin: '*',
@@ -61,7 +50,7 @@ export class App {
       c.res.headers.set('X-Response-Time', `${end - start}ms`)
     })
 
-    this.app.use(authMiddleware)
+    // this.app.use(authMiddleware)
   }
 
   private initializeSwaggerUI() {
@@ -90,12 +79,14 @@ export class App {
 
     this.app.get(
       '/docs',
-      apiReference({
+      Scalar({
         pageTitle: 'ExerciseDB API Documentation',
         theme: 'bluePlanet',
         isEditable: false,
         layout: 'modern',
         darkMode: true,
+        url: '/swagger',
+        favicon: 'https://cdn.exercisedb.dev/exercisedb/favicon.ico',
         metaData: {
           applicationName: 'ExerciseDB API',
           author: 'ExerciseDB API',
@@ -104,10 +95,6 @@ export class App {
           robots: 'index follow',
           description:
             'Access detailed data on over 1300+ exercises with the ExerciseDB API. This API offers extensive information on each exercise, including target body parts, equipment needed, GIFs for visual guidance, and step-by-step instructions.'
-        },
-
-        spec: {
-          url: '/swagger'
         }
       })
     )
@@ -118,7 +105,7 @@ export class App {
       return c.json(
         {
           success: false,
-          message: 'oops route not found!!. check docs at https://v1.exercisedb.dev/docs'
+          message: 'route not found!!. check docs at https://v1.exercisedb.dev/docs'
         },
         404
       )

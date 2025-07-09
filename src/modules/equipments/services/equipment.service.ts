@@ -1,10 +1,7 @@
 import { IEquipmentModel } from '#infra/mongodb/models/equipments/equipment.entity.js'
 import { IExerciseModel } from '#infra/mongodb/models/exercises/exercise.entity.js'
 import { GetExerciseSerivceArgs } from '#modules/exercises/services/exercise.service.js'
-import {
-  GetExercisesArgs,
-  GetExercisesUseCase
-} from '#modules/exercises/use-cases/get-exercises/get-exercise.usecase.js'
+import { GetExercisesArgs, GetExercisesUseCase } from '#modules/exercises/use-cases/get-exercise.usecase.js'
 import { CreateEquipmentArgs, CreateEquipmentUseCase } from '../use-cases/create-equipment'
 import { GetEquipmentsUseCase } from '../use-cases/get-equipments'
 
