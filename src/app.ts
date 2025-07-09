@@ -69,7 +69,7 @@ export class App {
 **📝 NOTE**: This version is public, free to use, and includes both the **code and dataset metadata** — making it perfect for personal projects, prototypes, learning, and community-driven apps.
 
 🔗 Useful Links:
-- 💬 Need full v1 Dataset access: [Chat](https://t.me/exercisedb)
+- 💬 Need full v1 Dataset access: [Download Now](https://dub.sh/v1_plans)
 - 🚀 Explore our new v2 dataset: [v2.exercisedb.dev](https://v2.exercisedb.dev)
 - 🌐 Official Website: [exercisedb.dev](https://exercisedb.dev)`
         },
