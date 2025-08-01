@@ -4,7 +4,7 @@
   "repository": "https://github.com/exercisedb/exercisedb-api",
   "version": "0.0.7",
   "author": "ExerciseDB API",
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "type": "module",
   "main": "dist/server.js",
   "module": "dist/server.js",
