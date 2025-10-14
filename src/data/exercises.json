@@ -26,20 +26,7 @@
           "name": "",
           "instructions": ["",""]
         }
-     ,
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ] ]
+      ]
   },
   {
     "exerciseId": "LMGXZn8",
@@ -67,20 +54,7 @@
           "name": "",
           "instructions": ["",""]
         }
-     ,
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ] ]
+    ]
   },
   {
     "exerciseId": "0br45wL",
