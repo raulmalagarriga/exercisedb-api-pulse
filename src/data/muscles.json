@@ -1,72 +1,6 @@
 [
   {
-    "name": "shins"
-  },
-  {
-    "name": "hands"
-  },
-  {
-    "name": "sternocleidomastoid"
-  },
-  {
-    "name": "soleus"
-  },
-  {
-    "name": "inner thighs"
-  },
-  {
-    "name": "lower abs"
-  },
-  {
-    "name": "grip muscles"
-  },
-  {
-    "name": "abdominals"
-  },
-  {
-    "name": "wrist extensors"
-  },
-  {
-    "name": "wrist flexors"
-  },
-  {
-    "name": "latissimus dorsi"
-  },
-  {
-    "name": "upper chest"
-  },
-  {
-    "name": "rotator cuff"
-  },
-  {
-    "name": "wrists"
-  },
-  {
-    "name": "groin"
-  },
-  {
-    "name": "brachialis"
-  },
-  {
-    "name": "deltoids"
-  },
-  {
-    "name": "feet"
-  },
-  {
-    "name": "ankles"
-  },
-  {
-    "name": "trapezius"
-  },
-  {
-    "name": "rear deltoids"
-  },
-  {
     "name": "chest"
-  },
-  {
-    "name": "quadriceps"
   },
   {
     "name": "back"
@@ -78,28 +12,7 @@
     "name": "shoulders"
   },
   {
-    "name": "ankle stabilizers"
-  },
-  {
-    "name": "rhomboids"
-  },
-  {
-    "name": "obliques"
-  },
-  {
-    "name": "lower back"
-  },
-  {
-    "name": "hip flexors"
-  },
-  {
-    "name": "levator scapulae"
-  },
-  {
     "name": "abductors"
-  },
-  {
-    "name": "serratus anterior"
   },
   {
     "name": "traps"
@@ -108,16 +21,7 @@
     "name": "forearms"
   },
   {
-    "name": "delts"
-  },
-  {
     "name": "biceps"
-  },
-  {
-    "name": "upper back"
-  },
-  {
-    "name": "spine"
   },
   {
     "name": "cardiovascular system"
@@ -135,13 +39,7 @@
     "name": "glutes"
   },
   {
-    "name": "pectorals"
-  },
-  {
     "name": "calves"
-  },
-  {
-    "name": "lats"
   },
   {
     "name": "quads"
