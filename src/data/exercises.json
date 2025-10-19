@@ -12062,13 +12062,27 @@
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell alternate biceps curl",
+          "instructions": [
+            "Step:1 Stand up straight with a dumbbell in each hand, palms facing forward and arms fully extended.",
+            "Step:2 Keeping your upper arms stationary, exhale and curl the weights while contracting your biceps.",
+            "Step:3 Continue to raise the dumbbells until your biceps are fully contracted and the dumbbells are at shoulder level.",
+            "Step:4 Hold the contracted position for a brief pause as you squeeze your biceps.",
+            "Step:5 Inhale and slowly begin to lower the dumbbells back to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions, alternating arms."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "curl de biceps alternado con mancuernas",
+          "instructions": [
+            "Paso:1 Párate derecho con una mancuerna en cada mano, palmas hacia adelante y brazos completamente extendidos.",
+            "Paso:2 Manteniendo los brazos superiores estacionarios, exhala y curl las pesas mientras contraes los bíceps.",
+            "Paso:3 Continúa levantando las mancuernas hasta que los bíceps estén completamente contraídos y las mancuernas estén a nivel del hombro.",
+            "Paso:4 Mantén la posición contraída por una breve pausa mientras aprietas los bíceps.",
+            "Paso:5 Inhala y comienza a bajar lentamente las mancuernas de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones, alternando los brazos."
+          ]
         }
       ]
   },
@@ -12092,13 +12106,27 @@
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "barbell standing reverse grip curl",
+          "instructions": [
+            "Step:1 Stand up straight with your feet shoulder-width apart and hold a barbell with an underhand grip, palms facing up.",
+            "Step:2 Keep your elbows close to your torso and your upper arms stationary.",
+            "Step:3 Exhale and curl the weights while contracting your biceps, bringing the barbell as close to your shoulders as possible.",
+            "Step:4 Hold the contracted position for a brief pause as you squeeze your biceps.",
+            "Step:5 Inhale and slowly lower the barbell back to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "curl con barra de pie con agarre inverso",
+          "instructions": [
+            "Paso:1 Párate derecho con los pies separados al ancho de los hombros y sostén una barra con un agarre prono, palmas hacia arriba.",
+            "Paso:2 Mantén los codos cerca del torso y los brazos superiores estacionarios.",
+            "Paso:3 Exhala y curl las pesas mientras contraes los bíceps, llevando la barra lo más cerca posible de los hombros.",
+            "Paso:4 Mantén la posición contraída por una breve pausa mientras aprietas los bíceps.",
+            "Paso:5 Inhala y baja lentamente la barra de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -12121,13 +12149,25 @@
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell seated curl",
+          "instructions": [
+              "Step:1 Sit on a bench with your feet flat on the ground and a dumbbell in each hand, palms facing forward.",
+              "Step:2 Keep your back straight and your elbows close to your torso.",
+              "Step:3 Exhale and curl the dumbbells up towards your shoulders, contracting your biceps.",
+              "Step:4 Pause for a moment at the top, then inhale and slowly lower the dumbbells back down to the starting position.",
+              "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "curl con mancuernas sentado",
+          "instructions": [
+              "Paso:1 Siéntate en un banco con los pies planos en el suelo y una mancuerna en cada mano, palmas hacia adelante.",
+              "Paso:2 Mantén la espalda recta y los codos cerca del torso.",
+              "Paso:3 Exhala y curl las mancuernas hacia los hombros, contrayendo los bíceps.",
+              "Paso:4 Pausa un momento en la parte superior, luego inhala y baja lentamente las mancuernas de vuelta a la posición inicial.",
+              "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -12146,21 +12186,32 @@
       "Step:4 Pause for a moment at the top, then slowly lower your arms back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Dumbbell Raise",
+        "instructions": [
+          "Stand with your feet shoulder-width apart and hold a dumbbell in each hand, palms facing your body.",
+          "Keep your back straight and engage your core.",
+          "Raise your arms out to the sides until they are parallel to the floor, keeping a slight bend in your elbows.",
+          "Pause briefly at the top, then slowly lower your arms back to the starting position.",
+          "Repeat for the desired number of repetitions."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Elevación con mancuernas",
+        "instructions": [
+          "Ponte de pie con los pies separados al ancho de los hombros y sostén una mancuerna en cada mano, con las palmas hacia el cuerpo.",
+          "Mantén la espalda recta y el abdomen contraído.",
+          "Levanta los brazos hacia los lados hasta que estén paralelos al suelo, manteniendo una ligera flexión en los codos.",
+          "Haz una breve pausa arriba y luego baja lentamente los brazos a la posición inicial.",
+          "Repite el movimiento las veces deseadas."
+        ]
+      }
+    ]
   },
-  {
+ {
     "exerciseId": "PsVS1QP",
     "name": "medicine ball catch and overhead throw",
     "gifUrl": "https://static.exercisedb.dev/media/PsVS1QP.gif",
@@ -12176,19 +12227,32 @@
       "Step:5 Release the ball at the top of the movement and catch it on the way down.",
       "Step:6 Lower your body back into the squat position and repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Medicine Ball Catch and Overhead Throw",
+        "instructions": [
+          "Stand with your feet shoulder-width apart, holding a medicine ball in both hands at chest level.",
+          "Bend your knees slightly and engage your core.",
+          "Lower into a squat position while keeping your back straight and chest up.",
+          "Explosively extend your hips and legs while throwing the medicine ball overhead.",
+          "Release the ball at the top of the movement and catch it on the way down.",
+          "Return to the squat position and repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Lanzamiento por encima de la cabeza con balón medicinal",
+        "instructions": [
+          "Ponte de pie con los pies separados al ancho de los hombros y sostiene un balón medicinal a la altura del pecho.",
+          "Flexiona ligeramente las rodillas y contrae el abdomen.",
+          "Desciende a una posición de sentadilla manteniendo la espalda recta y el pecho erguido.",
+          "Extiende explosivamente las caderas y piernas mientras lanzas el balón por encima de la cabeza.",
+          "Suelta el balón en la parte más alta del movimiento y atrápalo al descender.",
+          "Regresa a la posición de sentadilla y repite el movimiento."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "P9GFBME",
@@ -12205,19 +12269,30 @@
       "Step:4 Push back up to the starting position and repeat with your left knee towards your left elbow.",
       "Step:5 Continue alternating sides for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Spider Crawl Push-Up",
+        "instructions": [
+          "Start in a push-up position with hands slightly wider than shoulder-width and feet together.",
+          "Bring your right knee toward your right elbow without touching the ground.",
+          "As you return the leg, lower your body by bending your elbows.",
+          "Push back to the starting position and repeat with the other leg.",
+          "Alternate sides for the desired reps."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Flexión con arrastre tipo araña",
+        "instructions": [
+          "Comienza en posición de flexión con las manos un poco más abiertas que los hombros y los pies juntos.",
+          "Lleva la rodilla derecha hacia el codo derecho sin tocar el suelo.",
+          "Mientras regresas la pierna, baja el cuerpo doblando los codos.",
+          "Empuja de nuevo a la posición inicial y repite con la pierna izquierda.",
+          "Alterna los lados durante las repeticiones deseadas."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "W6PxUkg",
@@ -12235,19 +12310,32 @@
       "Step:5 Pause for a moment, then slowly lower the dumbbells back to the starting position.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Dumbbell Kickback",
+        "instructions": [
+          "Stand with your feet shoulder-width apart holding a dumbbell in each hand.",
+          "Slightly bend your knees and hinge forward at the hips, keeping your back straight.",
+          "Keep your upper arms close to your sides and elbows at 90 degrees.",
+          "Extend your arms backward, squeezing your triceps at the top.",
+          "Pause briefly, then lower the weights slowly.",
+          "Repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Extensión de tríceps con mancuernas",
+        "instructions": [
+          "Ponte de pie con los pies separados al ancho de los hombros y una mancuerna en cada mano.",
+          "Flexiona ligeramente las rodillas y lleva el torso hacia adelante con la espalda recta.",
+          "Mantén los brazos superiores pegados al cuerpo y los codos a 90 grados.",
+          "Extiende los brazos hacia atrás contrayendo los tríceps en la parte alta.",
+          "Haz una breve pausa y baja lentamente las mancuernas.",
+          "Repite el movimiento."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "lHeUULr",
@@ -12265,19 +12353,32 @@
       "Step:5 Engage your glutes and hamstrings to lift your body back up to the starting position.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Band Straight Back Stiff Leg Deadlift",
+        "instructions": [
+          "Stand with your feet shoulder-width apart and place the band around your upper legs.",
+          "Hold the band in front of your thighs, palms facing your body.",
+          "Keep your back straight and knees slightly bent as you hinge at the hips.",
+          "Lower until you feel a stretch in your hamstrings.",
+          "Engage glutes and hamstrings to return to start.",
+          "Repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Peso muerto con piernas rígidas usando banda",
+        "instructions": [
+          "Ponte de pie con los pies separados al ancho de los hombros y coloca la banda alrededor de tus piernas superiores.",
+          "Sujeta la banda frente a los muslos con las palmas hacia el cuerpo.",
+          "Mantén la espalda recta y las rodillas ligeramente flexionadas mientras inclinas la cadera hacia adelante.",
+          "Desciende hasta sentir el estiramiento en los isquiotibiales.",
+          "Activa glúteos y femorales para volver a la posición inicial.",
+          "Repite."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "S9zHIvU",
@@ -12295,19 +12396,32 @@
       "Step:5 Pause for a moment at the top, then slowly lower the barbell back to the starting position.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Barbell Rear Delt Row",
+        "instructions": [
+          "Stand with your feet shoulder-width apart and knees slightly bent.",
+          "Hold a barbell with an overhand grip slightly wider than shoulder width.",
+          "Bend forward at the hips keeping your back straight.",
+          "Pull the barbell toward your chest while squeezing your shoulder blades.",
+          "Pause at the top, then lower the barbell slowly.",
+          "Repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Remo posterior con barra",
+        "instructions": [
+          "Colócate de pie con los pies al ancho de los hombros y las rodillas ligeramente flexionadas.",
+          "Sujeta una barra con agarre prono (palmas hacia abajo) un poco más ancho que los hombros.",
+          "Inclina el torso hacia adelante manteniendo la espalda recta.",
+          "Lleva la barra hacia el pecho contrayendo los omóplatos.",
+          "Haz una breve pausa y baja lentamente la barra.",
+          "Repite el movimiento."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "tnaj0mT",
@@ -12324,19 +12438,30 @@
       "Step:4 Continue the circular motion, swinging your arms and rotating your torso for the desired number of repetitions.",
       "Step:5 Remember to breathe throughout the exercise."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Swing 360",
+        "instructions": [
+          "Stand with feet shoulder-width apart and knees slightly bent.",
+          "Extend your arms straight in front of you, parallel to the floor.",
+          "Engage your core and swing your arms in a circular motion, rotating your torso.",
+          "Continue the motion for the desired number of reps.",
+          "Remember to breathe steadily throughout."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Giro 360",
+        "instructions": [
+          "Ponte de pie con los pies separados al ancho de los hombros y las rodillas ligeramente flexionadas.",
+          "Extiende los brazos al frente, paralelos al suelo.",
+          "Activa el core y mueve los brazos en círculos mientras giras el torso.",
+          "Mantén el movimiento circular durante las repeticiones deseadas.",
+          "Recuerda respirar de forma constante durante el ejercicio."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "T2mxWqc",
@@ -12353,21 +12478,32 @@
       "Step:4 Pause for a moment at the top, then slowly lower your body back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Chin-Up",
+        "instructions": [
+          "Hang from a pull-up bar with palms facing you and hands shoulder-width apart.",
+          "Engage your core and pull your body up until your chin clears the bar.",
+          "Lead with your chest and avoid swinging.",
+          "Pause at the top, then lower yourself slowly.",
+          "Repeat for the desired reps."
+        ]
+      },
+       {
+        "language": "ES",
+        "name": "Dominada supina",
+        "instructions": [
+          "Cuelga de una barra con las palmas mirando hacia ti y las manos al ancho de los hombros.",
+          "Activa el abdomen y tira del cuerpo hacia arriba hasta que el mentón supere la barra.",
+          "Lidera el movimiento con el pecho y evita balancearte.",
+          "Haz una breve pausa arriba y desciende lentamente.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
   },
-  {
+   {
     "exerciseId": "gH5fRsC",
     "name": "dumbbell seated alternate front raise",
     "gifUrl": "https://static.exercisedb.dev/media/gH5fRsC.gif",
@@ -12383,21 +12519,32 @@
       "Step:5 Repeat with the other arm.",
       "Step:6 Alternate between arms for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Seated Alternating Dumbbell Front Raise",
+        "instructions": [
+          "Sit on a bench with your back straight and feet flat on the floor.",
+          "Hold a dumbbell in each hand with palms facing your body.",
+          "Raise one arm in front of you until it’s parallel to the ground.",
+          "Pause briefly, then lower slowly.",
+          "Repeat with the other arm, alternating between sides."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Elevación frontal alternada sentado con mancuernas",
+        "instructions": [
+          "Siéntate en un banco con la espalda recta y los pies apoyados en el suelo.",
+          "Sujeta una mancuerna en cada mano con las palmas hacia el cuerpo.",
+          "Levanta un brazo al frente hasta que quede paralelo al suelo.",
+          "Haz una breve pausa y bájalo lentamente.",
+          "Repite con el otro brazo, alternando entre ambos."
+        ]
+      }
+    ]
   },
-  {
+   {
     "exerciseId": "AR0ig3o",
     "name": "flexion leg sit up (bent knee)",
     "gifUrl": "https://static.exercisedb.dev/media/AR0ig3o.gif",
@@ -12413,19 +12560,32 @@
       "Step:5 Pause for a moment at the top, then slowly lower your upper body and legs back down to the starting position.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Bent-Knee Sit-Up",
+        "instructions": [
+          "Lie on your back with knees bent and feet flat on the ground.",
+          "Place your hands behind your head with elbows wide.",
+          "Engage your abs and curl your torso up to about 45 degrees.",
+          "Lift your legs toward your chest as you rise.",
+          "Pause briefly, then return slowly to the starting position.",
+          "Repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Abdominal con piernas flexionadas",
+        "instructions": [
+          "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados en el suelo.",
+          "Coloca las manos detrás de la cabeza con los codos hacia afuera.",
+          "Activa los abdominales y eleva el torso unos 45 grados.",
+          "Al mismo tiempo, levanta las piernas hacia el pecho.",
+          "Haz una breve pausa arriba y regresa lentamente a la posición inicial.",
+          "Repite."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "eXFXCY0",
@@ -12443,21 +12603,32 @@
       "Step:5 Slowly return to the starting position, allowing your back to round slightly.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Lever Seated Crunch (Version 2)",
+        "instructions": [
+          "Sit on the leverage machine with your back against the pad and feet secured.",
+          "Hold the handles or seat sides for support.",
+          "Engage your abs and crunch forward, bringing your chest toward your knees.",
+          "Pause briefly at the top, squeezing your abs.",
+          "Return slowly to the starting position and repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Crunch en máquina sentado (versión 2)",
+        "instructions": [
+          "Siéntate en la máquina de palanca con la espalda apoyada y los pies asegurados.",
+          "Sujeta las asas o los costados del asiento para estabilizarte.",
+          "Activa los abdominales y flexiona el torso hacia adelante llevando el pecho hacia las rodillas.",
+          "Haz una breve pausa arriba contrayendo los abdominales.",
+          "Regresa lentamente a la posición inicial y repite."
+        ]
+      }
+    ]
   },
-  {
+ {
     "exerciseId": "s999Hdo",
     "name": "dumbbell one arm seated bicep curl on exercise ball",
     "gifUrl": "https://static.exercisedb.dev/media/s999Hdo.gif",
@@ -12472,19 +12643,30 @@
       "Step:4 Pause for a moment at the top, then slowly lower the dumbbell back to the starting position.",
       "Step:5 Repeat for the desired number of repetitions, then switch arms."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "One-Arm Seated Dumbbell Curl on Exercise Ball",
+        "instructions": [
+          "Sit on an exercise ball with feet flat on the ground and back straight.",
+          "Hold a dumbbell with one hand, palm facing upward.",
+          "Keep the upper arm still and curl the dumbbell toward your shoulder.",
+          "Pause at the top, then lower slowly.",
+          "Repeat and switch arms."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Curl de bíceps con mancuerna en balón de estabilidad (un brazo)",
+        "instructions": [
+          "Siéntate sobre una pelota de ejercicio con los pies apoyados en el suelo y la espalda recta.",
+          "Sujeta una mancuerna con una mano, con la palma mirando hacia arriba.",
+          "Mantén el brazo superior inmóvil y flexiona el codo llevando la mancuerna hacia el hombro.",
+          "Haz una breve pausa arriba y baja lentamente.",
+          "Repite y cambia de brazo."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "wpbD28t",
@@ -12502,21 +12684,34 @@
       "Step:5 Lower your body back down to the starting position with control.",
       "Step:6 Repeat for the desired number of repetitions, then switch sides."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Side Push-Up",
+        "instructions": [
+          "Lie on your side with legs extended and stacked.",
+          "Place your lower hand under your shoulder, fingers forward.",
+          "Push through the hand to lift your body, keeping legs straight and core tight.",
+          "Raise your top arm toward the ceiling, forming a straight line from head to heels.",
+          "Lower yourself slowly back down with control.",
+          "Repeat and switch sides."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Flexión lateral",
+        "instructions": [
+          "Acuéstate de lado con las piernas extendidas una sobre otra.",
+          "Coloca la mano inferior debajo del hombro con los dedos apuntando hacia adelante.",
+          "Empuja con la mano inferior para levantar el cuerpo, manteniendo las piernas rectas y el abdomen firme.",
+          "Extiende el brazo superior hacia el techo formando una línea recta desde la cabeza hasta los talones.",
+          "Baja lentamente el cuerpo con control.",
+          "Repite y cambia de lado."
+        ]
+      }
+    ]
   },
-  {
+ {
     "exerciseId": "V4ryaZa",
     "name": "ez barbell close-grip curl",
     "gifUrl": "https://static.exercisedb.dev/media/V4ryaZa.gif",
@@ -12531,19 +12726,30 @@
       "Step:4 Pause for a moment at the top, then slowly lower the barbell back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "EZ Barbell Close-Grip Curl",
+        "instructions": [
+          "Stand with feet shoulder-width apart and hold the EZ bar with an underhand grip.",
+          "Keep elbows close to the torso and upper arms still.",
+          "Curl the bar toward your shoulders while contracting your biceps.",
+          "Pause at the top, then lower slowly.",
+          "Repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Curl con barra EZ agarre cerrado",
+        "instructions": [
+          "Ponte de pie con los pies separados al ancho de los hombros y sujeta la barra EZ con agarre supino.",
+          "Mantén los codos cerca del torso y los brazos superiores inmóviles.",
+          "Flexiona los codos llevando la barra hacia los hombros contrayendo los bíceps.",
+          "Haz una breve pausa arriba y baja lentamente.",
+          "Repite el movimiento."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "lCKm4Rs",
@@ -12560,19 +12766,30 @@
       "Step:4 Pause for a moment at the top, then slowly lower your legs back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Exercise Ball Prone Leg Raise",
+        "instructions": [
+          "Lie face down with your toes resting on a stability ball.",
+          "Place your hands on the ground shoulder-width apart and engage your core.",
+          "Lift your straight legs upward using your glutes and lower back.",
+          "Pause briefly at the top, then lower slowly.",
+          "Repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Elevación de piernas en balón de estabilidad",
+        "instructions": [
+          "Acuéstate boca abajo con los dedos de los pies apoyados sobre una pelota de estabilidad.",
+          "Coloca las manos en el suelo al ancho de los hombros y activa el abdomen.",
+          "Levanta las piernas rectas usando los glúteos y la zona lumbar.",
+          "Haz una breve pausa arriba y baja lentamente.",
+          "Repite el movimiento."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "7w6i0vE",
@@ -12589,19 +12806,30 @@
       "Step:4 Press the lowered kettlebell back up to the starting position while simultaneously lowering the other kettlebell down towards your shoulder.",
       "Step:5 Continue alternating the press motion with each kettlebell for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Alternating Kettlebell Floor Press",
+        "instructions": [
+          "Lie on your back with knees bent and feet flat.",
+          "Hold a kettlebell in each hand, arms extended upward.",
+          "Lower one kettlebell toward your shoulder while keeping the other arm extended.",
+          "Press it back up while lowering the opposite kettlebell.",
+          "Alternate sides for the desired reps."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Press alternado con kettlebell en el suelo",
+        "instructions": [
+          "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados.",
+          "Sostén una kettlebell en cada mano con los brazos extendidos hacia arriba.",
+          "Baja una kettlebell hacia el hombro mientras mantienes la otra extendida.",
+          "Empuja hacia arriba la kettlebell bajada mientras desciendes la otra.",
+          "Alterna los lados durante las repeticiones deseadas."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "nnmCTLN",
@@ -12620,21 +12848,34 @@
       "Step:6 Inhale and slowly lower your legs back to the starting position, fully extending your knees.",
       "Step:7 Repeat for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Lever Kneeling Leg Curl",
+        "instructions": [
+          "Adjust the machine and select weight.",
+          "Kneel on the pad facing down with feet secured.",
+          "Hold the handles for stability.",
+          "Curl your legs toward your glutes, exhaling as you lift.",
+          "Pause and squeeze your hamstrings.",
+          "Lower slowly to the start and repeat."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Curl de piernas en máquina arrodillado",
+        "instructions": [
+          "Ajusta la máquina según tu cuerpo y elige el peso adecuado.",
+          "Arrodíllate sobre la máquina mirando hacia abajo con los pies asegurados.",
+          "Sujeta las asas para mantener la estabilidad.",
+          "Flexiona las rodillas llevando los talones hacia los glúteos mientras exhalas.",
+          "Haz una breve pausa contrayendo los isquiotibiales.",
+          "Baja lentamente hasta extender las piernas y repite."
+        ]
+      }
+    ]
   },
-  {
+   {
     "exerciseId": "yT9tk17",
     "name": "twisted leg raise (female)",
     "gifUrl": "https://static.exercisedb.dev/media/yT9tk17.gif",
@@ -12650,19 +12891,30 @@
       "Step:5 Repeat the movement, this time twisting your hips to the other side.",
       "Step:6 Continue alternating sides for the desired number of repetitions."
     ],
-    "translations": 
-      [
-        {
-          "language": "EN",
-          "name": "",
-          "instructions": ["",""]
-        },
-        {
-          "language": "ES",
-          "name": "",
-          "instructions": ["",""]
-        }
-      ]
+    "translations": [
+      {
+        "language": "EN",
+        "name": "Twisted Leg Raise",
+        "instructions": [
+          "Lie on your back with legs extended and arms at your sides.",
+          "Lift your legs and bend your knees toward your chest.",
+          "Twist your hips, bringing your knees toward the opposite shoulder.",
+          "Pause briefly, then return to the starting position.",
+          "Alternate sides for the desired reps."
+        ]
+      },
+      {
+        "language": "ES",
+        "name": "Elevación de piernas con giro",
+        "instructions": [
+          "Acuéstate boca arriba con las piernas extendidas y los brazos a los costados.",
+          "Levanta las piernas doblando las rodillas hacia el pecho.",
+          "Gira las caderas llevando las rodillas hacia el hombro contrario.",
+          "Haz una breve pausa y baja lentamente a la posición inicial.",
+          "Alterna los lados durante las repeticiones deseadas."
+        ]
+      }
+    ]
   },
   {
     "exerciseId": "2Pya1cP",
