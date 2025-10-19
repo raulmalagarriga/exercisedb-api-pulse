@@ -11199,17 +11199,31 @@
       "Step:5 Pause for a moment at the top, then slowly lower the dumbbell back down to the starting position.",
       "Step:6 Repeat for the desired number of repetitions, then switch to the other arm."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell one arm incline chest press",
+          "instructions": [
+            "Step:1 Adjust the incline bench to a 45-degree angle.",
+            "Step:2 Sit on the bench with your back against the pad and feet flat on the ground.",
+            "Step:3 Hold a dumbbell in one hand with an overhand grip, resting it on your shoulder.",
+            "Step:4 Push the dumbbell up and away from your body, extending your arm fully.",
+            "Step:5 Pause for a moment at the top, then slowly lower the dumbbell back down to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions, then switch to the other arm."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "press inclinado con mancuerna a un brazo en pecho",
+          "instructions": [
+            "Paso:1 Ajusta el banco inclinado a un ángulo de 45 grados.",
+            "Paso:2 Siéntate en el banco con la espalda contra el respaldo y los pies planos en el suelo.",
+            "Paso:3 Sostén una mancuerna en una mano con agarre prono, descansándola sobre tu hombro.",
+            "Paso:4 Empuja la mancuerna hacia arriba y lejos de tu cuerpo, extendiendo tu brazo completamente.",
+            "Paso:5 Pausa un momento en la parte superior, luego baja lentamente la mancuerna de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones, luego cambia al otro brazo."
+          ]
         }
       ]
   },
@@ -11228,17 +11242,29 @@
       "Step:4 Pause for a moment at the top, then slowly lower the dumbbells back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell lying supination on floor",
+          "instructions": [
+            "Step:1 Lie flat on your back on the floor with your legs extended and your arms by your sides, holding a dumbbell in each hand.",
+            "Step:2 Rotate your palms to face up, keeping your elbows close to your sides.",
+            "Step:3 Slowly curl the dumbbells towards your shoulders, squeezing your forearms.",
+            "Step:4 Pause for a moment at the top, then slowly lower the dumbbells back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "supinación tumbado con mancuernas en el suelo",
+          "instructions": [
+            "Paso:1 Acuéstate boca arriba en el suelo con las piernas extendidas y los brazos a los lados, sosteniendo una mancuerna en cada mano.",
+            "Paso:2 Rota las palmas hacia arriba, manteniendo los codos cerca de los lados.",
+            "Paso:3 Curl lentamente las mancuernas hacia los hombros, apretando los antebrazos.",
+            "Paso:4 Pausa un momento en la parte superior, luego baja lentamente las mancuernas de vuelta a la posición inicial.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11257,17 +11283,29 @@
       "Step:4 Engage your glutes and hamstrings to pull your body back up to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "cable pull through (with rope)",
+          "instructions": [
+            "Step:1 Stand facing away from the cable machine with your feet shoulder-width apart.",
+            "Step:2 Grab the rope attachment with both hands and step forward, creating tension in the cable.",
+            "Step:3 Bend at the hips and lower your upper body until it is parallel to the ground, keeping your back straight.",
+            "Step:4 Engage your glutes and hamstrings to pull your body back up to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "jalón con cable (con cuerda)",
+          "instructions": [
+            "Paso:1 Párate de espaldas a la máquina de cable con los pies separados al ancho de los hombros.",
+            "Paso:2 Agarra el accesorio de cuerda con ambas manos y da un paso adelante, creando tensión en el cable.",
+            "Paso:3 Dobla las caderas y baja la parte superior del cuerpo hasta que esté paralela al suelo, manteniendo la espalda recta.",
+            "Paso:4 Activa los glúteos e isquiotibiales para tirar de tu cuerpo de vuelta a la posición inicial.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11287,17 +11325,31 @@
       "Step:5 Lower the dumbbells back down to the starting position, keeping your elbows slightly bent.",
       "Step:6 Repeat for the desired number of repetitions, alternating arms."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell incline alternate press",
+          "instructions": [
+            "Step:1 Sit on an incline bench with a dumbbell in each hand, resting on your thighs.",
+            "Step:2 Lean back on the bench and use your thighs to help raise the dumbbells to shoulder height, palms facing forward.",
+            "Step:3 Once at shoulder height, rotate your wrists so that the palms of your hands are facing forward.",
+            "Step:4 Push the dumbbells up with your chest and shoulders, extending your arms fully.",
+            "Step:5 Lower the dumbbells back down to the starting position, keeping your elbows slightly bent.",
+            "Step:6 Repeat for the desired number of repetitions, alternating arms."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "press inclinado alterno con mancuernas",
+          "instructions": [
+            "Paso:1 Siéntate en un banco inclinado con una mancuerna en cada mano, descansando sobre tus muslos.",
+            "Paso:2 Reclínate en el banco y usa tus muslos para ayudar a elevar las mancuernas a la altura de los hombros, con las palmas hacia adelante.",
+            "Paso:3 Una vez a la altura de los hombros, rota las muñecas para que las palmas de las manos queden hacia adelante.",
+            "Paso:4 Empuja las mancuernas hacia arriba con el pecho y los hombros, extendiendo los brazos completamente.",
+            "Paso:5 Baja las mancuernas de vuelta a la posición inicial, manteniendo los codos ligeramente doblados.",
+            "Paso:6 Repite para el número deseado de repeticiones, alternando los brazos."
+          ]
         }
       ]
   },
@@ -11317,17 +11369,31 @@
       "Step:5 Pause for a moment at the top, then slowly lower your legs and hips back down to the starting position.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "cable tuck reverse crunch",
+          "instructions": [
+            "Step:1 Attach a cable to a low pulley and lie down on a mat facing up.",
+            "Step:2 Hold the cable with both hands and extend your arms straight up above your chest.",
+            "Step:3 Bend your knees and lift your legs up, bringing your knees towards your chest.",
+            "Step:4 At the same time, curl your pelvis up towards your chest, lifting your hips off the ground.",
+            "Step:5 Pause for a moment at the top, then slowly lower your legs and hips back down to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "encogimiento inverso con cable en posición recogida",
+          "instructions": [
+            "Paso:1 Conecta un cable a una polea baja y acuéstate en una colchoneta boca arriba.",
+            "Paso:2 Sostén el cable con ambas manos y extiende los brazos hacia arriba sobre el pecho.",
+            "Paso:3 Dobla las rodillas y levanta las piernas, llevando las rodillas hacia el pecho.",
+            "Paso:4 Al mismo tiempo, enrolla la pelvis hacia el pecho, levantando las caderas del suelo.",
+            "Paso:5 Pausa un momento en la parte superior, luego baja lentamente las piernas y las caderas de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11347,17 +11413,31 @@
       "Step:5 Drive through your heels to stand back up, squeezing your glutes at the top.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "barbell speed squat",
+          "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart, toes slightly turned out.",
+            "Step:2 Hold the barbell across your back, resting it on your traps or rear shoulders.",
+            "Step:3 Engage your core and keep your chest up as you lower your hips back and down, as if sitting into a chair.",
+            "Step:4 Lower until your thighs are parallel to the ground, or as low as you can comfortably go.",
+            "Step:5 Drive through your heels to stand back up, squeezing your glutes at the top.",
+            "Step:6 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "sentadilla rápida con barra",
+          "instructions": [
+            "Paso:1 Párate con los pies separados al ancho de los hombros, con los dedos ligeramente hacia afuera.",
+            "Paso:2 Sostén la barra sobre tu espalda, descansándola sobre los trapecios o la parte posterior de los hombros.",
+            "Paso:3 Activa el core y mantén el pecho arriba mientras bajas las caderas hacia atrás y abajo, como si te sentaras en una silla.",
+            "Paso:4 Baja hasta que los muslos estén paralelos al suelo, o tan bajo como puedas cómodamente.",
+            "Paso:5 Empuja a través de los talones para levantarte, apretando los glúteos en la parte superior.",
+            "Paso:6 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11376,17 +11456,29 @@
       "Step:4 Pause for a moment at the top of the movement, then slowly lower the sled back down by bending your knees and ankles.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "sled calf press on leg press",
+          "instructions": [
+            "Step:1 Adjust the seat of the leg press machine so that your knees are slightly bent when your feet are on the sled.",
+            "Step:2 Place your feet shoulder-width apart on the sled, with your toes pointing forward.",
+            "Step:3 Release the safety handles and push the sled away from you by extending your knees and ankles.",
+            "Step:4 Pause for a moment at the top of the movement, then slowly lower the sled back down by bending your knees and ankles.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "press de pantorrillas en máquina de prensa de piernas",
+          "instructions": [
+            "Paso:1 Ajusta el asiento de la máquina de prensa de piernas para que las rodillas estén ligeramente dobladas cuando los pies estén en el trineo.",
+            "Paso:2 Coloca los pies separados al ancho de los hombros en el trineo, con los dedos apuntando hacia adelante.",
+            "Paso:3 Suelta las manijas de seguridad y empuja el trineo lejos de ti extendiendo las rodillas y los tobillos.",
+            "Paso:4 Pausa un momento en la parte superior del movimiento, luego baja lentamente el trineo doblando las rodillas y los tobillos.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11405,17 +11497,29 @@
       "Step:4 Pause for a moment at the top, then slowly lower your heel back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions, then switch legs and repeat."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "smith seated one leg calf raise",
+          "instructions": [
+            "Step:1 Sit on the machine with your back against the pad and your feet on the footrest.",
+            "Step:2 Place one leg on the footrest and keep the other leg off the footrest.",
+            "Step:3 Using your calf muscles, raise your heel as high as possible.",
+            "Step:4 Pause for a moment at the top, then slowly lower your heel back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions, then switch legs and repeat."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "elevación de gemelo a una pierna sentado en smith",
+          "instructions": [
+            "Paso:1 Siéntate en la máquina con la espalda contra el respaldo y los pies en el reposapiés.",
+            "Paso:2 Coloca una pierna en el reposapiés y mantén la otra pierna fuera del reposapiés.",
+            "Paso:3 Usando los músculos de la pantorrilla, levanta el talón lo más alto posible.",
+            "Paso:4 Pausa un momento en la parte superior, luego baja lentamente el talón de vuelta a la posición inicial.",
+            "Paso:5 Repite para el número deseado de repeticiones, luego cambia de pierna y repite."
+          ]
         }
       ]
   },
@@ -11436,17 +11540,33 @@
       "Step:6 Slowly begin to bring the barbell back to the starting position as you inhale.",
       "Step:7 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "ez barbell reverse grip curl",
+          "instructions": [
+            "Step:1 Stand up straight with your feet shoulder-width apart and hold the ez barbell with an underhand grip.",
+            "Step:2 Keep your elbows close to your torso and your upper arms stationary throughout the exercise.",
+            "Step:3 Curl the barbell upwards by contracting your biceps, while exhaling.",
+            "Step:4 Continue to raise the barbell until your biceps are fully contracted and the barbell is at shoulder level.",
+            "Step:5 Hold the contracted position for a brief pause as you squeeze your biceps.",
+            "Step:6 Slowly begin to bring the barbell back to the starting position as you inhale.",
+            "Step:7 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "curl con barra ez agarre inverso",
+          "instructions": [
+            "Paso:1 Párate erguido con los pies separados al ancho de los hombros y sostén la barra ez con agarre supino.",
+            "Paso:2 Mantén los codos cerca del torso y los brazos superiores estacionarios durante todo el ejercicio.",
+            "Paso:3 Curl la barra hacia arriba contrayendo los bíceps, mientras exhalas.",
+            "Paso:4 Continúa levantando la barra hasta que los bíceps estén completamente contraídos y la barra esté a la altura de los hombros.",
+            "Paso:5 Mantén la posición contraída por una breve pausa mientras aprietas los bíceps.",
+            "Paso:6 Comienza lentamente a bajar la barra de vuelta a la posición inicial mientras inhalas.",
+            "Paso:7 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11466,17 +11586,31 @@
       "Step:5 Pause for a moment when the barbell touches your chest, then push it back up to the starting position.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "barbell lying close-grip press",
+          "instructions": [
+            "Step:1 Lie flat on a bench with your feet flat on the ground and your back pressed against the bench.",
+            "Step:2 Grasp the barbell with a close grip, hands shoulder-width apart, palms facing towards your feet.",
+            "Step:3 Lift the barbell off the rack and hold it directly above your chest with your arms fully extended.",
+            "Step:4 Slowly lower the barbell towards your chest, keeping your elbows close to your body.",
+            "Step:5 Pause for a moment when the barbell touches your chest, then push it back up to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "press tumbado con barra agarre cerrado",
+          "instructions": [
+            "Paso:1 Acuéstate en un banco con los pies planos en el suelo y la espalda presionada contra el banco.",
+            "Paso:2 Agarra la barra con un agarre cerrado, manos separadas al ancho de los hombros, palmas mirando hacia los pies.",
+            "Paso:3 Levanta la barra del rack y sostenla directamente sobre el pecho con los brazos completamente extendidos.",
+            "Paso:4 Baja lentamente la barra hacia el pecho, manteniendo los codos cerca del cuerpo.",
+            "Paso:5 Pausa un momento cuando la barra toque el pecho, luego empújala de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11495,17 +11629,29 @@
       "Step:4 Pause for a moment at the top, then slowly lower your upper body back down to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "weighted decline sit-up",
+          "instructions": [
+            "Step:1 Lie flat on a decline bench with your feet secured under the foot pads.",
+            "Step:2 Place your hands behind your head or across your chest.",
+            "Step:3 Engage your abs and slowly lift your upper body off the bench, curling forward until your torso is perpendicular to the ground.",
+            "Step:4 Pause for a moment at the top, then slowly lower your upper body back down to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "abdominal declinado con peso",
+          "instructions": [
+            "Paso:1 Acuéstate en un banco declinado con los pies asegurados bajo las almohadillas.",
+            "Paso:2 Coloca las manos detrás de la cabeza o cruzadas sobre el pecho.",
+            "Paso:3 Activa los abdominales y levanta lentamente la parte superior del cuerpo del banco, enrollándote hacia adelante hasta que el torso esté perpendicular al suelo.",
+            "Paso:4 Pausa un momento en la parte superior, luego baja lentamente la parte superior del cuerpo de vuelta a la posición inicial.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11524,17 +11670,29 @@
       "Step:4 Pause for a moment, then push through your left heel to return to the starting position.",
       "Step:5 Repeat on the other side, stepping back with your left foot."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell rear lunge",
+          "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart, holding a dumbbell in each hand.",
+            "Step:2 Take a step backward with your right foot, lowering your body into a lunge position.",
+            "Step:3 Bend your left knee and lower your body until your left thigh is parallel to the ground.",
+            "Step:4 Pause for a moment, then push through your left heel to return to the starting position.",
+            "Step:5 Repeat on the other side, stepping back with your left foot."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "zancada trasera con mancuernas",
+          "instructions": [
+            "Paso:1 Párate con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano.",
+            "Paso:2 Da un paso hacia atrás con el pie derecho, bajando el cuerpo a una posición de zancada.",
+            "Paso:3 Dobla la rodilla izquierda y baja el cuerpo hasta que el muslo izquierdo esté paralelo al suelo.",
+            "Paso:4 Pausa un momento, luego empuja a través del talón izquierdo para volver a la posición inicial.",
+            "Paso:5 Repite del otro lado, dando un paso atrás con el pie izquierdo."
+          ]
         }
       ]
   },
@@ -11553,17 +11711,29 @@
       "Step:4 Hold the contracted position for a brief pause, then inhale and slowly lower the barbell back to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "barbell standing back wrist curl",
+          "instructions": [
+            "Step:1 Stand up straight with your feet shoulder-width apart and hold a barbell with an overhand grip.",
+            "Step:2 Rest the barbell on the back of your hands with your palms facing down and your fingers pointing towards your body.",
+            "Step:3 Keeping your upper arms stationary, exhale and curl your wrists upwards as far as possible.",
+            "Step:4 Hold the contracted position for a brief pause, then inhale and slowly lower the barbell back to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "curl de muñeca trasero de pie con barra",
+          "instructions": [
+            "Paso:1 Párate erguido con los pies separados al ancho de los hombros y sostén una barra con agarre prono.",
+            "Paso:2 Descansa la barra en la parte posterior de las manos con las palmas hacia abajo y los dedos apuntando hacia el cuerpo.",
+            "Paso:3 Manteniendo los brazos superiores estacionarios, exhala y curl las muñecas hacia arriba lo más posible.",
+            "Paso:4 Mantén la posición contraída por una breve pausa, luego inhala y baja lentamente la barra de vuelta a la posición inicial.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11583,17 +11753,31 @@
       "Step:5 Pause for a moment at the top, then slowly lower your heel back down to the starting position.",
       "Step:6 Repeat for the desired number of repetitions, then switch to the other leg."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "dumbbell seated one leg calf raise - hammer grip",
+          "instructions": [
+            "Step:1 Sit on a bench or chair with your feet flat on the ground and a dumbbell resting on your thighs.",
+            "Step:2 Place one foot on a raised surface, such as a step or block, with your heel hanging off the edge.",
+            "Step:3 Hold the dumbbell with a hammer grip, meaning your palms are facing each other and your fingers are wrapped around the handle.",
+            "Step:4 Keeping your core engaged and your back straight, slowly raise your heel as high as possible by pushing through the ball of your foot.",
+            "Step:5 Pause for a moment at the top, then slowly lower your heel back down to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions, then switch to the other leg."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "elevación de gemelo sentado a una pierna con mancuerna - agarre martillo",
+          "instructions": [
+            "Paso:1 Siéntate en un banco o silla con los pies planos en el suelo y una mancuerna descansando sobre los muslos.",
+            "Paso:2 Coloca un pie en una superficie elevada, como un escalón o bloque, con el talón colgando del borde.",
+            "Paso:3 Sostén la mancuerna con agarre martillo, lo que significa que las palmas están enfrentadas y los dedos envuelven el mango.",
+            "Paso:4 Manteniendo el core activado y la espalda recta, levanta lentamente el talón lo más alto posible empujando a través de la planta del pie.",
+            "Paso:5 Pausa un momento en la parte superior, luego baja lentamente el talón de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones, luego cambia a la otra pierna."
+          ]
         }
       ]
   },
@@ -11613,17 +11797,31 @@
       "Step:5 Pause for a moment at the top, then slowly lower the sled back down by flexing your ankles.",
       "Step:6 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "sled one leg calf press on leg press",
+          "instructions": [
+            "Step:1 Adjust the seat of the leg press machine so that your knees are slightly bent when your feet are on the sled.",
+            "Step:2 Sit on the machine with your back against the backrest and your feet on the sled, shoulder-width apart.",
+            "Step:3 Place your toes and the balls of your feet on the sled, keeping your heels off.",
+            "Step:4 Push the sled forward by extending your ankles, keeping your knees slightly bent.",
+            "Step:5 Pause for a moment at the top, then slowly lower the sled back down by flexing your ankles.",
+            "Step:6 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "prensa de gemelo a una pierna en trineo con máquina de prensa",
+          "instructions": [
+            "Paso:1 Ajusta el asiento de la máquina de prensa de piernas para que las rodillas estén ligeramente dobladas cuando los pies estén en el trineo.",
+            "Paso:2 Siéntate en la máquina con la espalda contra el respaldo y los pies en el trineo, separados al ancho de los hombros.",
+            "Paso:3 Coloca los dedos y la planta de los pies en el trineo, manteniendo los talones fuera.",
+            "Paso:4 Empuja el trineo hacia adelante extendiendo los tobillos, manteniendo las rodillas ligeramente dobladas.",
+            "Paso:5 Pausa un momento en la parte superior, luego baja lentamente el trineo flexionando los tobillos.",
+            "Paso:6 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11642,17 +11840,29 @@
       "Step:4 Hold the stretch for a few seconds, then slowly return to the starting position.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "assisted seated pectoralis major stretch with stability ball",
+          "instructions": [
+            "Step:1 Sit on a stability ball with your feet flat on the ground and your back straight.",
+            "Step:2 Hold a stability ball with both hands and extend your arms straight out in front of you.",
+            "Step:3 Slowly lower the stability ball towards your chest, feeling a stretch in your pectoral muscles.",
+            "Step:4 Hold the stretch for a few seconds, then slowly return to the starting position.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "estiramiento asistido de pectoral mayor sentado con pelota de estabilidad",
+          "instructions": [
+            "Paso:1 Siéntate en una pelota de estabilidad con los pies planos en el suelo y la espalda recta.",
+            "Paso:2 Sostén una pelota de estabilidad con ambas manos y extiende los brazos rectos hacia adelante.",
+            "Paso:3 Baja lentamente la pelota de estabilidad hacia el pecho, sintiendo un estiramiento en los músculos pectorales.",
+            "Paso:4 Mantén el estiramiento por unos segundos, luego regresa lentamente a la posición inicial.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11672,17 +11882,31 @@
       "Step:5 Hold the stretch for 20-30 seconds, then release.",
       "Step:6 Repeat on the other leg."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "calf stretch with rope",
+          "instructions": [
+            "Step:1 Stand facing a wall or sturdy object with your feet hip-width apart.",
+            "Step:2 Hold the ends of the rope in each hand and place the middle of the rope around the ball of your right foot.",
+            "Step:3 Step back with your left foot, keeping your heel on the ground and your leg straight.",
+            "Step:4 Lean forward, keeping your back straight, and gently pull on the rope to stretch your calf.",
+            "Step:5 Hold the stretch for 20-30 seconds, then release.",
+            "Step:6 Repeat on the other leg."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "estiramiento de gemelo con cuerda",
+          "instructions": [
+            "Paso:1 Párate frente a una pared u objeto sólido con los pies separados al ancho de las caderas.",
+            "Paso:2 Sostén los extremos de la cuerda en cada mano y coloca la mitad de la cuerda alrededor de la planta del pie derecho.",
+            "Paso:3 Da un paso atrás con el pie izquierdo, manteniendo el talón en el suelo y la pierna recta.",
+            "Paso:4 Inclínate hacia adelante, manteniendo la espalda recta, y tira suavemente de la cuerda para estirar el gemelo.",
+            "Paso:5 Mantén el estiramiento por 20-30 segundos, luego suelta.",
+            "Paso:6 Repite con la otra pierna."
+          ]
         }
       ]
   },
@@ -11702,17 +11926,31 @@
       "Step:5 Pause for a moment at the top, then slowly lower your hand back down to the starting position.",
       "Step:6 Repeat for the desired number of repetitions, then switch sides."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "band concentration curl",
+          "instructions": [
+            "Step:1 Sit on a bench or chair with your legs spread apart and your feet flat on the ground.",
+            "Step:2 Hold one end of the band in your hand and step on the other end with your foot on the same side.",
+            "Step:3 Lean forward slightly and rest your elbow on the inside of your thigh, just above the knee.",
+            "Step:4 With your palm facing up, slowly curl your hand towards your shoulder, keeping your upper arm stationary.",
+            "Step:5 Pause for a moment at the top, then slowly lower your hand back down to the starting position.",
+            "Step:6 Repeat for the desired number of repetitions, then switch sides."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "curl de concentración con banda",
+          "instructions": [
+            "Paso:1 Siéntate en un banco o silla con las piernas separadas y los pies planos en el suelo.",
+            "Paso:2 Sostén un extremo de la banda en la mano y pisa el otro extremo con el pie del mismo lado.",
+            "Paso:3 Inclínate ligeramente hacia adelante y apoya el codo en el interior del muslo, justo encima de la rodilla.",
+            "Paso:4 Con la palma hacia arriba, curl lentamente la mano hacia el hombro, manteniendo el brazo superior estacionario.",
+            "Paso:5 Pausa un momento en la parte superior, luego baja lentamente la mano de vuelta a la posición inicial.",
+            "Paso:6 Repite para el número deseado de repeticiones, luego cambia de lado."
+          ]
         }
       ]
   },
@@ -11731,17 +11969,29 @@
       "Step:4 Push yourself back up to the starting position by extending your arms.",
       "Step:5 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "push-up (bosu ball)",
+          "instructions": [
+            "Step:1 Place the bosu ball on the ground with the flat side facing up.",
+            "Step:2 Position yourself in a push-up position with your hands on the outer edges of the bosu ball.",
+            "Step:3 Engage your core and lower your body down towards the bosu ball by bending your elbows.",
+            "Step:4 Push yourself back up to the starting position by extending your arms.",
+            "Step:5 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "flexión (pelota bosu)",
+          "instructions": [
+            "Paso:1 Coloca la pelota bosu en el suelo con el lado plano hacia arriba.",
+            "Paso:2 Posiciónate en posición de flexión con las manos en los bordes exteriores de la pelota bosu.",
+            "Paso:3 Activa el core y baja el cuerpo hacia la pelota bosu doblando los codos.",
+            "Paso:4 Empújate de vuelta a la posición inicial extendiendo los brazos.",
+            "Paso:5 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
@@ -11762,17 +12012,33 @@
       "Step:6 Once the tire is fully flipped, quickly step back and reset your stance.",
       "Step:7 Repeat for the desired number of repetitions."
     ],
-    "translations": 
+    "translations":
       [
         {
           "language": "EN",
-          "name": "",
-          "instructions": ["",""]
+          "name": "tire flip",
+          "instructions": [
+            "Step:1 Stand with your feet shoulder-width apart, facing the tire.",
+            "Step:2 Bend your knees and hinge at the hips, lowering into a squat position.",
+            "Step:3 Reach down and grab the bottom edge of the tire with both hands, fingers facing towards you.",
+            "Step:4 Engage your glutes and leg muscles, and explosively drive through your legs to lift the tire off the ground.",
+            "Step:5 As the tire flips over, use your upper body strength to guide it and maintain control.",
+            "Step:6 Once the tire is fully flipped, quickly step back and reset your stance.",
+            "Step:7 Repeat for the desired number of repetitions."
+          ]
         },
         {
           "language": "ES",
-          "name": "",
-          "instructions": ["",""]
+          "name": "volteo de neumático",
+          "instructions": [
+            "Paso:1 Párate con los pies separados al ancho de los hombros, frente al neumático.",
+            "Paso:2 Dobla las rodillas y flexiona las caderas, bajando a una posición de sentadilla.",
+            "Paso:3 Agáchate y agarra el borde inferior del neumático con ambas manos, con los dedos apuntando hacia ti.",
+            "Paso:4 Activa los glúteos y los músculos de las piernas, y empuja explosivamente a través de las piernas para levantar el neumático del suelo.",
+            "Paso:5 A medida que el neumático se voltea, usa la fuerza de la parte superior del cuerpo para guiarlo y mantener el control.",
+            "Paso:6 Una vez que el neumático esté completamente volteado, da un paso atrás rápidamente y reajusta tu postura.",
+            "Paso:7 Repite para el número deseado de repeticiones."
+          ]
         }
       ]
   },
